@@ -5,6 +5,43 @@
         "title": "꽃갈피",
         "year": 2014,
         "genre": "Pop",
-        "format": "LP"
+        "format": "LP",
+        "country": "🇰🇷",
+        "purchase": {
+            "date": "2023-08-19",
+            "currency": "KRW",
+            "price": 175000,
+            "location": "당근마켓"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/YtJGyQTLgPIheGRgk46cS_LOOI7aLjZzZ3s_35dQdhU/rs:fit/g:sm/q:90/h:571/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Mjgz/NTU2LTE3MDMzMTY4/MjUtNjM0NC5qcGVn.jpeg",
+        "artist": "結束バンド",
+        "title": "結束バンド",
+        "year": 2023,
+        "genre": "Rock",
+        "format": "LP",
+        "country": "🇯🇵",
+        "purchase": {
+            "date": "2024-01-30",
+            "currency": "KRW",
+            "price": 7500,
+            "location": "스마트스토어"
+        }
+    }, 
+    {
+        "cover": "https://i.discogs.com/KS7DMrXwag0vajOEWYY4GGO5F6KeUawarYGuzx6B3PY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg1/ODIyLTE2OTMzOTcy/NTgtODkzNy5qcGVn.jpeg",
+        "artist": "Harry Styles",
+        "title": "Harry’s House",
+        "year": 2022,
+        "genre": "Pop",
+        "format": "LP",
+        "country": "🇪🇺",
+        "purchase": {
+            "date": "2023-04-19",
+            "currency": "KRW",
+            "price": 51000,
+            "location": "예스24"
+        }
     }
 ]
