@@ -1,47 +1,1318 @@
 [
     {
-        "cover": "https://i.discogs.com/dYOzV68OloCk_JK7iUQehniqNQHHCOPLjRqAFJmVvZw/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MTE5/MTI3LTE2OTM1NDI2/NzctNzUyMS5qcGVn.jpeg",
-        "artist": "아이유",
-        "title": "꽃갈피",
-        "year": 2014,
-        "genre": "Pop",
-        "format": "LP",
-        "country": "🇰🇷",
+        "cover": "https://i.discogs.com/dC-63cuQOjXV1IQKdEZKddT4oPishMFxVKyYvtwEZ7Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODAx/Mjc0LTE2MzQ4NTIx/NzAtMzg5MC5wbmc.jpeg",
+        "artist": "C418",
+        "title": "Minecraft Volume Alpha",
+        "year": 0,
+        "genre": "Electronic, Stage & Screen",
+        "format": "Vinyl",
         "purchase": {
-            "date": "2023-08-19",
             "currency": "KRW",
-            "price": 175000,
-            "location": "당근마켓"
+            "price": 38800,
+            "date": "2023-08-23",
+            "location": "예스24"
         }
     },
     {
-        "cover": "https://i.discogs.com/YtJGyQTLgPIheGRgk46cS_LOOI7aLjZzZ3s_35dQdhU/rs:fit/g:sm/q:90/h:571/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Mjgz/NTU2LTE3MDMzMTY4/MjUtNjM0NC5qcGVn.jpeg",
-        "artist": "結束バンド",
-        "title": "結束バンド",
-        "year": 2023,
-        "genre": "Rock",
-        "format": "LP",
-        "country": "🇯🇵",
+        "cover": "https://i.discogs.com/vssV9cdejrPe7r4WW0n655PbOUDtRCJNuH9UzNpg0jA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNzk5/NjMtMTQxOTI2NTAz/My00NTE4LmpwZWc.jpeg",
+        "artist": "Taylor Swift",
+        "title": "1989",
+        "year": 2014,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
         "purchase": {
-            "date": "2024-01-30",
             "currency": "KRW",
-            "price": 7500,
-            "location": "스마트스토어"
+            "price": 48100,
+            "date": "2022-09-02",
+            "location": "예스24"
         }
-    }, 
+    },
+    {
+        "cover": "https://i.discogs.com/p9AuasqA3XnfRq6UDQ20uLxQGnhPkuVG3EhsF73lxUw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNTk4/MjktMTQxMjU1OTI4/My02NjA1LmpwZWc.jpeg",
+        "artist": "Kristen Anderson-Lopez",
+        "title": "Frozen The Songs",
+        "year": 2014,
+        "genre": "Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36000,
+            "date": "2021-10-13",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/oCKnZdsrdyUDoPjKs5kgGNCS7bszOLgPwds1PrpY-EQ/rs:fit/g:sm/q:90/h:492/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1Mzcx/OTEtMTM5NTkzNDY2/My00NjgyLmpwZWc.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Night Visions",
+        "year": 2014,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 34500,
+            "date": "2021-10-20",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/34u7LOISccoSy3gTGNQmmDxvCKhc3Rvw6nq72LGfwWA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4MDAw/NzgtMTQ0OTAyOTkw/My03ODIwLmpwZWc.jpeg",
+        "artist": "The Weeknd",
+        "title": "Beauty Behind The Madness",
+        "year": 2015,
+        "genre": "Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 60000,
+            "date": "2021-09-05",
+            "location": "중고나라"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/59KKVtVwtlvgoFxgLXj5uW1QIsf49HVzjc-ZoJ55DEA/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2NzEz/NDItMTUwMzU4MDU4/MC00NTM4LmpwZWc.jpeg",
+        "artist": "Mariah Carey",
+        "title": "Merry Christmas",
+        "year": 2015,
+        "genre": "Electronic, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 28600,
+            "date": "2022-05-17",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/udE1NNTD6WleXzYK5gVnHSgVS3kmNdFCguitkkYcj-E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczNzUx/ODYtMTQ0MDE5NzA4/Ny02MDk0LmpwZWc.jpeg",
+        "artist": "C418",
+        "title": "Minecraft Volume Alpha",
+        "year": 2015,
+        "genre": "Electronic, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 38800,
+            "date": "2023-08-23",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/IYatBr-1UkONhDrT9Kh2apI3g-6RxZgfDntkY55B6a8/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4ODk5/MTEtMTU0OTM1ODI0/OS01MjUxLmpwZWc.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Smoke + Mirrors",
+        "year": 2015,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 31400,
+            "date": "2022-12-21",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/PqAs1-adc-inKuAagGLhb5cGJdisNvMx7jmUHUiNgp4/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1MjEw/NjEtMTQ0MzE5ODk3/Ny0xMjcyLmpwZWc.jpeg",
+        "artist": "Queen",
+        "title": "Studio Collection",
+        "year": 2015,
+        "genre": "Rock, Pop",
+        "format": "Box Set",
+        "purchase": {
+            "currency": "KRW",
+            "price": 554900,
+            "date": "2021-08-09",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/nlymWYqyvf9qqkkgCcSBxJVtcDxvr5xcs9SzRh7ac8g/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzNjA2/NDYtMTQ3OTIzNTcx/Ny01Mjc1LmpwZWc.jpeg",
+        "artist": "Ariana Grande",
+        "title": "Dangerous Woman",
+        "year": 2016,
+        "genre": "Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36400,
+            "date": "2022-09-20",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/b2h-as3tILF4cxk_yJ47OFHXXNzQpxqugCCdp1tgJXo/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxMTk0/MDAtMTU2Mzk1NTQ1/MC00MTY2LmpwZWc.jpeg",
+        "artist": "Maroon 5",
+        "title": "Overexposed",
+        "year": 2016,
+        "genre": "Electronic, Rock, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 39000,
+            "date": "2023-08-02",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/qnxU8k7MotYZn-ktnSUtc4QQ7NDu46jui7Vb_-knXt0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxMTkz/MjAtMTQ3NTEwMTUx/MC00MjIwLmpwZWc.jpeg",
+        "artist": "Maroon 5",
+        "title": "Songs About Jane",
+        "year": 2016,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 42000,
+            "date": "2023-08-02",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/UFfeQMWRMR1W2jl9kEnwm4JFOLbsX7meWhZvNZQW-AM/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyNTQ3/MzEtMTY0MDQ0MzY3/My00MjM0LmpwZWc.jpeg",
+        "artist": "Maroon 5",
+        "title": "V",
+        "year": 2016,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45500,
+            "date": "2022-07-19",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/dRj_p-TcuMFnV_1heafS_swPcuuGaLNWhCEJgJdG3ro/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTU5/MTEyLTE1MDMwMDky/NjctNzAwNS5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Evolve",
+        "year": 2017,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 34500,
+            "date": "2021-10-20",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/2eyzN0WwAfXDEmcLLDxBCH5l14nk65Tosc-J8noNV-Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzM5/ODA1LTE0OTU2MTcy/NDMtNDQ0MS5qcGVn.jpeg",
+        "artist": "Harry Styles",
+        "title": "Harry Styles",
+        "year": 2017,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 35000,
+            "date": "2023-07-26",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/OZiVXOktigzIJtNgWS9KGrPbpcpBIeYrEL3WcmCsf3Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjU2/MTc1LTE1MTMzNzc4/OTktODYyNC5qcGVn.jpeg",
+        "artist": "Taylor Swift",
+        "title": "Reputation",
+        "year": 2017,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 44500,
+            "date": "2022-08-12",
+            "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/jGL2LGcpv88DiLtKjPiSd22d04lQdV-WFPE73pdLqBU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3Nzgy/NzAtMTUyMzQ1NzY2/OC00MjA2LmpwZWc.jpeg",
+        "artist": "The Weeknd",
+        "title": "Starboy",
+        "year": 2017,
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 50700,
+            "date": "2021-07-29",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/7ztPFubHbz3pRNHTHFi_Ks7D4AhGrFjQRslCafcthMs/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzAw/NTU1LTE1NDAzMDk5/NzItMzA2NC5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Beerbongs & Bentleys",
+        "year": 2018,
+        "genre": "Hip Hop, Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 40000,
+            "date": "2021-09-05",
+            "location": "중고나라"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/eLogK_YTieNAB3hUtFFswQvm0zqHC0A8Tw-cRQ4H4Dc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExOTg2/MDk4LTE2NjUzOTY0/ODUtMTE0MS5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "Black Panther The Album (Music From And Inspired By)",
+        "year": 2018,
+        "genre": "Hip Hop, Funk / Soul, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 37300,
+            "date": "2021-07-29",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/AfN_TNlgxLHgoBTnGwI_yh7Awg6--W9J8sfmTt5V3nc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTU0/MTM4LTE1NDUyNDQx/NDQtNDYyMy5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Origins",
+        "year": 2018,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 48600,
+            "date": "2022-07-19",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ZQ52mRaWpvXCDnC68Yyl0By9_gXMzXodT_D8D749MG8/rs:fit/g:sm/q:90/h:632/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjEz/MDYwLTE1NTAwNTUz/NDctNDc2OC5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Stoney",
+        "year": 2018,
+        "genre": "Hip Hop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 59000,
+            "date": "2023-06-28",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/5-Ov-T0fWcNMOv28VpF7p3lGIQnsBvxKvhHbZLzpiK4/rs:fit/g:sm/q:90/h:394/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzEy/MTczLTE1NDA1NDA2/NjQtMTMxNi5qcGVn.jpeg",
+        "artist": "Ariana Grande",
+        "title": "Sweetener",
+        "year": 2018,
+        "genre": "Hip Hop, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 48200,
+            "date": "2022-09-20",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/Ul2ZqBm8yLVIHTh3GFC3pfH2rW4k0NbLFIl7mJMltH0/rs:fit/g:sm/q:90/h:566/w:560/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTM1/NjMzLTE3MDI5NjMw/MDgtNjM3MS5wbmc.jpeg",
+        "artist": "5 Seconds Of Summer",
+        "title": "Youngblood",
+        "year": 2018,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36500,
+            "date": "2022-10-14",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/iOpjePlIUZZUJf6ukeKKJn8ySQUCgiCyU_d0paysm4U/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTgw/NjIyLTE1NjAzNjk1/NjYtNTYyMS5qcGVn.jpeg",
+        "artist": "Queen",
+        "title": "Bohemian Rhapsody (The Original Soundtrack)",
+        "year": 2019,
+        "genre": "Rock, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36500,
+            "date": "2021-05-27",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/E5h5ZNAM1ZzmXvCBe2JPwh67BbALUq992_bP9FxuPgc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTIx/MDE3LTE2NzY0MTEy/MzMtNDkxOS5qcGVn.jpeg",
+        "artist": "Harry Styles",
+        "title": "Fine Line",
+        "year": 2019,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 64400,
+            "date": "2021-07-29",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/e8g0eXp5EA0_jt-mYm9Ah5c2DKn8G9WPMNzWBGUO3Uc/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA4/MjQ0LTE1NzM5MjMx/MDctMjk2NS5qcGVn.jpeg",
+        "artist": "Taylor Swift",
+        "title": "Lover",
+        "year": 2019,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49500,
+            "date": "2022-08-12",
+            "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/w4z7kvBV234dEbv1jXMaemhTD3y7-iCz0PGbXT6-7r8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDkz/NTg4LTE1ODUxNTM1/MjMtNjQyNC5qcGVn.jpeg",
+        "artist": "Ariana Grande",
+        "title": "My Everything ",
+        "year": 2019,
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 40400,
+            "date": "2022-09-22",
+            "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/muWG3iza8HbNFyETjR0vbmpOldst2UvzqVwY5CiRFUo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjgw/MTg0LTE1NjQ4MTg1/MTAtOTI5Ni5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "Spider-Man: Into The Spider-Verse (Music From & Inspired By The Motion Picture)",
+        "year": 2019,
+        "genre": "Hip Hop, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 44500,
+            "date": "2023-08-02",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/TyyTvu1U-6VDQO3BZuLp3uO9guKpKYfUVdDjIiqChzA/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNTg2/NDEyLTE1NTY5OTc5/ODMtNDcwOC5qcGVn.jpeg",
+        "artist": "Ariana Grande",
+        "title": "Thank U, Next",
+        "year": 2019,
+        "genre": "Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 51000,
+            "date": "2022-09-22",
+            "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/65Mu7HMNtAHaBelJhkywNdpWtNanVl012LmlJjkKOZI/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA1/OTgxLTE2ODIzODQ5/MzMtNzc2OS5qcGVn.jpeg",
+        "artist": "Billie Eilish",
+        "title": "When We All Fall Asleep, Where Do We Go?",
+        "year": 2019,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49980,
+            "date": "2022-08-27",
+            "location": "해외 직구"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/KwlY_f90FO64mFgv6tj5c8d8lHUtba__MlcEPUmOr_E/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0Mjcx/MjQyLTE1NzExNjE0/NTktNzMyOS5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Wow.",
+        "year": 2019,
+        "genre": "Hip Hop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36000,
+            "date": "2023-06-28",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/NXE8AF3qtVeGr1mmLiUbFEED4zj-8zQIGip2_AJ1FKA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTc1/MDQyLTE3MDMzMTQ3/MTItNDc3NC5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "After Hours",
+        "year": 2020,
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 50000,
+            "date": "2021-09-03",
+            "location": "중고나라"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/oKputYtEKu5DdnoajB4M4eTLcKqPhSElzlYT5nxRidM/rs:fit/g:sm/q:90/h:610/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTI1/MDg3LTE2MDI4Nzg4/NzItMjcyNi5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "Beauty Behind The Madness",
+        "year": 2020,
+        "genre": "Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 85000,
+            "date": "2022-07-19",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ZysmbWcmdx7f48R5cLswCZAcUSBnQPivX2TJnD8D9c0/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzQ4/NTA0LTE2MDg5Nzkz/NjctMTAzNC5wbmc.jpeg",
+        "artist": "5 Seconds Of Summer",
+        "title": "Calm",
+        "year": 2020,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45500,
+            "date": "2023-04-19",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/kMLEBzXKlBJ1nmmAxTwaKnBo_Ym1Ar63ZhrdjAGJvzg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTM0/OTU1LTE2MDA0OTAz/MTItMzE5My5qcGVn.jpeg",
+        "artist": "Billie Eilish",
+        "title": "Don't Smile At Me",
+        "year": 2020,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "USD",
+            "price": 36.81,
+            "date": "2022-08-26",
+            "location": "아마존"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/57xHiRyCfb1b1IWsm-LkI-ieTSkJuLZRbS-BbIdPwcA/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTI5/MDc5LTE1OTQzMTM1/ODYtNzM0NC5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Hollywood's Bleeding",
+        "year": 2020,
+        "genre": "Hip Hop, Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 56100,
+            "date": "2022-03-16",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/J0q3HCKnQPmvt2baaZ2sgKW3nqcxnuSnFK7zH3E-eAs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTQw/NTA1LTE2MTA5MjI0/MzYtMjkzNy5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Hollywood's Bleeding",
+        "year": 2020,
+        "genre": "Hip Hop, Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 100000,
+            "date": "2021-09-04",
+            "location": "중고나라"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/EJ-E_D700w6dGqRvd-5aFAkrsdsh9Lmz-sYa-pZ2Nl8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTI4/MDUyLTE1OTMxMjUw/NjYtNTM3Ny5qcGVn.jpeg",
+        "artist": "Doja Cat",
+        "title": "Hot Pink",
+        "year": 2020,
+        "genre": "Hip Hop, Funk / Soul",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 32900,
+            "date": "2023-04-19",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/5AthW35C7aNs7D3N1Por49_iItnbsdPAYyaAVMJrseY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDQ5/NTE0LTE2MTMyMTIx/NzctNDQzNi5qcGVn.jpeg",
+        "artist": "Cyndi Lauper",
+        "title": "She's So Unusual",
+        "year": 2020,
+        "genre": "Electronic, Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 28600,
+            "date": "2022-09-20",
+            "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/t9VEqGlkHualHFoWo-jc67rt6uRHgbAk3Ku46IxV6hY/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NDY0/OTQxLTE2MTk0Mjgw/NDgtODY2Mi5qcGVn.jpeg",
+        "artist": "Rosé",
+        "title": "-R-",
+        "year": 2021,
+        "genre": "Electronic, Pop",
+        "format": "Box Set",
+        "purchase": {
+            "currency": "KRW",
+            "price": 42000,
+            "date": "2021-03-22",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/3TFg2ScZtTYTGhe5o8yGNXz9mxnBzRyMG9EAcrImZGU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDAw/NTQ2LTE2Mzk5NDI2/NTEtMjk1NS5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "Blinding Lights",
+        "year": 2021,
+        "genre": "Electronic, Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 37500,
+            "date": "2022-05-11",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/HE2HTU2AEbHjBoLJvNfmCWIRh28VnXgom1dKJ8pyQA4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzU3/OTU1LTE2NDYwOTU1/NDYtOTc5NS5qcGVn.jpeg",
+        "artist": "Daft Punk",
+        "title": "Discovery",
+        "year": 2021,
+        "genre": "Electronic",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 65000,
+            "date": "2022-05-02",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/rarcpas_RcqGLFQk-9OmhEqsN_ivEIbgwSO9OTnJjYw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1ODk4/NzA3LTE2NzQ4MzU4/NDEtMjQ5NS5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "Evangelion Finally",
+        "year": 2021,
+        "genre": "Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 64000,
+            "date": "2023-07-05",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/vnqcPLt_rNig8UkhT7vKU6EQBi84iE0oUwjH-q59Yd4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5MzE5/NjI5LTE2MjQ5ODQ5/NjAtNDQyOS5qcGVn.jpeg",
+        "artist": "Justin Bieber",
+        "title": "Justice",
+        "year": 2021,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 34600,
+            "date": "2021-09-01",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/gIAiIIOUcxoC5DjTag8o6ZQrmI0TSUiLyO0NlmXf-RI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNTkz/NTAzLTE2Njk5ODQw/NDUtMTg2OC5wbmc.jpeg",
+        "artist": "Lisa",
+        "title": "Lalisa",
+        "year": 2021,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 50000,
+            "date": "2021-09-07",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/cwp7w5WLbNrpZ7l068j3ETSpVDuet25F65g8u6IrmsA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDk4/ODM3LTE2MzA2Nzkw/MDQtODAxOC5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Mercury - Act 1",
+        "year": 2021,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 40300,
+            "date": "2021-10-09",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/xRlRzdHqnBJ9l1IPYoQiuzcHDI1fa0aLNCBcJVV1ncA/rs:fit/g:sm/q:90/h:582/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDk3/MTM5LTE2MzA3NDg5/NjgtMzEzOC5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Mercury - Act 1",
+        "year": 2021,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 54800,
+            "date": "2022-07-19",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ZYUJv514yrNlcIV1aSVu6b6aneeEbiFbmlLHhRsVmDs/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNTg3/NjA2LTE2MzQ2NzAx/MTAtNDcyMy5qcGVn.jpeg",
+        "artist": "Coldplay",
+        "title": "Music Of The Spheres",
+        "year": 2021,
+        "genre": "Electronic, Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 47200,
+            "date": "2021-10-09",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/wJTblMaXmIgsvaxAHBoTnvfvPN-PF1c--PTVGI-j4Is/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwOTE0/MjEzLTE2MzY3Mjg0/MzUtMTE3Mi5qcGVn.jpeg",
+        "artist": "Nirvana",
+        "title": "Nevermind",
+        "year": 2021,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49400,
+            "date": "2022-05-12",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/Mczxrnd9F_YgXLp2mKJzELOBlq20ugYcOQJczPblEdA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNjg0/MDkyLTE2MzU5MTA2/NDItNDk4Ni5qcGVn.jpeg",
+        "artist": "Mariya Takeuchi",
+        "title": "Plastic Love",
+        "year": 2021,
+        "genre": "Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "JPY",
+            "price": 7800,
+            "date": "2021-10-10",
+            "location": "아마존"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/6gzBJITG_Xq5pZ7wqag0J5DmE1StIhduLURl9roeaTw/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MjIy/NjQ5LTE2MTc5ODY3/MjgtNTM4Ni5qcGVn.jpeg",
+        "artist": "Ariana Grande",
+        "title": "Positions",
+        "year": 2021,
+        "genre": "Hip Hop, Jazz, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 41500,
+            "date": "2022-08-03",
+            "location": "도프레코드"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/9TNC6XKGH6CcMR7RDOSTRCTjCIJN7ZT7r1t9JgSi58g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODkz/NzY5LTE2NDI2Njg5/NTAtNjM3NC5qcGVn.jpeg",
+        "artist": "Olivia Rodrigo",
+        "title": "Sour",
+        "year": 2021,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 36500,
+            "date": "2021-10-20",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/9kumWZ74__u02T7pEvY5UJZNZB3l8-uCDsOKzDAUJTs/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTI3/NTA0LTE2Mjk1MTMx/MjYtMzA1Ni5qcGVn.jpeg",
+        "artist": "Olivia Rodrigo",
+        "title": "Sour",
+        "year": 2021,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 27830,
+            "date": "2022-08-05",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/u3rIRCQjzw-iOqY83wwxlaUTU5GmlFLNv8FkIec7tfI/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MjA1/MzA0LTE2MTIxNjE5/NjMtMjE0Mi5qcGVn.jpeg",
+        "artist": "Blackpink",
+        "title": "The Album",
+        "year": 2021,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 52000,
+            "date": "2021-03-28",
+            "location": "오프라인 매장"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/Rr5yYilyewlSmtr-nof7zd1ypzkKeUrP-oOEO4eRsLw/rs:fit/g:sm/q:90/h:562/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMDM4/MjA5LTE2NDIyNTIx/MjItMzczOC5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "The Highlights",
+        "year": 2021,
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 54600,
+            "date": "2021-12-13",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/gG3ms7bWsow09dlQ51FvAgIzqjoY6S1tvyxM42b2hc8/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMjk0/MzQwLTE2MzkxMTc5/NzYtODIzOC5qcGVn.jpeg",
+        "artist": "조광일",
+        "title": "암순응 Dark Adaption",
+        "year": 2021,
+        "genre": "Hip Hop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 90000,
+            "date": "2021-12-10",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/GMaNBQnXOgeur9F_0tYiMVsXvCH8dETXtipwvSLhqUs/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNTgz/Mjc5LTE2NDIzMTIw/OTQtMzM1OS5qcGVn.jpeg",
+        "artist": "Akdong Musician",
+        "title": "항해 / Sailing",
+        "year": 2021,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 78000,
+            "date": "2021-09-06",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/96XfEMkEPJED5gRzWna7fCFEC55b3DioyyVmyffQkUc/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0Mjcw/MTczLTE2NjEwOTcx/MDgtOTgwNC5qcGVn.jpeg",
+        "artist": "Silk Sonic",
+        "title": "An Evening With Silk Sonic",
+        "year": 2022,
+        "genre": "Funk / Soul",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 39500,
+            "date": "2022-09-14",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/uaM23GB2C_MtWafoJE-CZU7TluMyi7XRG4654KzGNnQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDE2/NDA2LTE2NzA2MTMx/NjUtOTAzMS5qcGVn.jpeg",
+        "artist": "Charlie Puth",
+        "title": "Charlie",
+        "year": 2022,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 37500,
+            "date": "2023-04-18",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/dBXPgN3ccTEUI4_mQxJXRvK_PptlDqVuWJu_QUuzwR0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MTM4/NzU4LTE2NjE2Mzk0/MTMtNDgzMS5qcGVn.jpeg",
+        "artist": "Cigarettes After Sex",
+        "title": "Cigarettes After Sex",
+        "year": 2022,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 44000,
+            "date": "2022-07-26",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/h8D9Sp1TGsDc27sWoKgba43n9CjE6V3E-JdR5deSbhc/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDU0/OTcyLTE2NTEyNTEz/ODItOTcwNC5qcGVn.jpeg",
+        "artist": "Norah Jones",
+        "title": "Come Away With Me",
+        "year": 2022,
+        "genre": "Jazz, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 39800,
+            "date": "2022-05-02",
+            "location": "사운드룩"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/rtecbIwnZEnzqGNwt2pJJpPJa32azM0JrXQMnHDTd9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDAw/NDIwLTE2ODA5NDMx/MTQtODc4My5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "Dawn FM",
+        "year": 2022,
+        "genre": "Electronic, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 51200,
+            "date": "2022-05-02",
+            "location": "사운드룩"
+        }
+    },
     {
         "cover": "https://i.discogs.com/KS7DMrXwag0vajOEWYY4GGO5F6KeUawarYGuzx6B3PY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg1/ODIyLTE2OTMzOTcy/NTgtODkzNy5qcGVn.jpeg",
         "artist": "Harry Styles",
         "title": "Harry’s House",
         "year": 2022,
-        "genre": "Pop",
-        "format": "LP",
-        "country": "🇪🇺",
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
         "purchase": {
-            "date": "2023-04-19",
             "currency": "KRW",
-            "price": 51000,
+            "price": 50100,
+            "date": "2023-04-19",
             "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/R52cPvYi9CkL4DNyKfj4z74tSexnIK_izB4cZ55re2Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNjM5/Mjg2LTE2NDE1NjY2/NTctNjU3MS5qcGVn.jpeg",
+        "artist": "Hans Zimmer",
+        "title": "Interstellar (Original Motion Picture Soundtrack)",
+        "year": 2022,
+        "genre": "Electronic, Classical, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 47500,
+            "date": "2022-08-03",
+            "location": "도프레코드"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/gCfTJV3ttrWwU5ioiyjlCZXHkokxXlfl5crSHinGjfc/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Mzkz/MjIyLTE2NzA0MDU5/NDMtMTA4MC5qcGVn.jpeg",
+        "artist": "BTS",
+        "title": "Love Yourself 承 'Her'",
+        "year": 2022,
+        "genre": "Electronic, Hip Hop, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 55000,
+            "date": "2022-10-07",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/OinH6a6bzs_EwNRPyWfUDwOvG6rTrT79prpwHNDlsmQ/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDk0/NzUyLTE2Njc5MDMz/OTgtOTU4Ni5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "Nevertheless (알고 있지만) OST",
+        "year": 2022,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 60000,
+            "date": "2022-04-07",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/6GhhJrDk1bKmmLf43T_a6u118fW47WRyab0Pdw-CWek/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzAz/MjExLTE2MzkzMzEz/MTAtMzMyNi5wbmc.jpeg",
+        "artist": "Akdong Musician",
+        "title": "Next Episode",
+        "year": 2022,
+        "genre": "Pop",
+        "format": "Box Set",
+        "purchase": {
+            "currency": "KRW",
+            "price": 46000,
+            "date": "2021-07-29",
+            "location": "알라딘"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/HaZpVCohonWgOspZxQmOhck8cbSujHff9RW1GHtWuJk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NDk1/MTg4LTE2NjMwMTQ4/NjAtNjM4MS5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Night Visions",
+        "year": 2022,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 58500,
+            "date": "2022-10-18",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/q0vs6JpqTvRHwN-Ww6vF4A-bh0S2DFToP6u1DBaCs_8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzYz/Mjk3LTE2NTM4MzQ2/NjgtOTQyNi5qcGVn.jpeg",
+        "artist": "Doja Cat",
+        "title": "Planet Her ",
+        "year": 2022,
+        "genre": "Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 35800,
+            "date": "2023-04-19",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/4hx-hhM8IQkDY6PrXxy2-66h45U4LMGtsKwCdVMXMQY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzQ0/ODA1LTE2ODM4Njg4/OTMtNzE0NS5qcGVn.jpeg",
+        "artist": "검정치마",
+        "title": "Team Baby",
+        "year": 2022,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 55000,
+            "date": "2022-07-27",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/SSrRi9iTIcvQ-Qhajb4CniYHakieUuDxbh4vxMU9TDE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MzQ5/MTcwLTE2Njk5OTk4/MzAtNTA0NS5qcGVn.jpeg",
+        "artist": "James Horner",
+        "title": "Titanic (Music From The Motion Picture)",
+        "year": 2022,
+        "genre": "Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 44000,
+            "date": "2022-10-27",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/sEAggfx9e5M9LMyt32giX_5IiWixgMo5i-OJqMeEchU/rs:fit/g:sm/q:90/h:581/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDUy/NzY3LTE2Njc2MjMx/MzQtOTg2MC5qcGVn.jpeg",
+        "artist": "Harold Faltermeyer",
+        "title": "Top Gun: Maverick - Music From The Motion Picture",
+        "year": 2022,
+        "genre": "Electronic, Rock, Pop, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 47500,
+            "date": "2022-07-19",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/tH9KADD-lR7erUxpmlObC4sZdXUMBhfjIxf2Euk05WM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMTE0/MzU3LTE2NTY1Mjk3/MzUtMjQ2Ni5qcGVn.jpeg",
+        "artist": "Bruno Mars",
+        "title": "XXIVK Magic",
+        "year": 2022,
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 53500,
+            "date": "2023-09-04",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/L8O4u65eEeKwQCuTNUwfpSk9YBMQgV_fGtZs3IpDcj8/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTA0/NjI4LTE2NzMwODY1/OTQtMzg2MS5qcGVn.jpeg",
+        "artist": "Radwimps",
+        "title": "君の名は。",
+        "year": 2022,
+        "genre": "Rock, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 61000,
+            "date": "2022-07-27",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/d3tUikiPf-Eb7w_wpk-7JiYSxy7v7gfUZ1CPuqKE02M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTc3/OTE0LTE2Nzc2MDUw/MDMtOTU1NC5qcGVn.jpeg",
+        "artist": "Miki Matsubara",
+        "title": "真夜中のドア -Stay With Me-",
+        "year": 2022,
+        "genre": "Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 60000,
+            "date": "2023-08-23",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/Tf0uxNzktSbONIXk_AICMGMdn1mO7RRWKN9u2mSY4Wk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNjI1/NzAyLTE2ODQ4MTMw/NzEtMjI0NS5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "베스트 앨범 = Best Album",
+        "year": 2022,
+        "genre": "Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 110000,
+            "date": "2022-03-27",
+            "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/zYXDA3Lmxu8yWmOz0y9o9z2kS8kISrTvRUmKwumJSps/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Njc5/OTQ0LTE2ODk0MTE3/MjQtNzkzNy5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "1집",
+        "year": 2023,
+        "genre": "Rock, Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45000,
+            "date": "2022-11-18",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/EYL70hGdlh6IQ1fFV8tjWIOmKd1Vx_0mGWbuw8qyLns/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjYz/NjQ4LTE2ODkyNjA2/NDMtNTEzMy5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "2집",
+        "year": 2023,
+        "genre": "Rock, Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45000,
+            "date": "2022-11-18",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ZwyfOC7PY8RLtAmh4cKLVERMWcuE4lksHCZwU42z22E/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MjYy/MTY0LTE2OTQ3MTAx/NDUtMzM3Ni5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "3번째 노래 모음",
+        "year": 2023,
+        "genre": "Rock, Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45000,
+            "date": "2023-01-05",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/QvZeQfkBC8lKAmOChDp_yqoXbKW-klKR1CjSPrazYgQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3ODE2/MjczLTE2OTM2Mzkx/NDYtMTQ3OC5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Austin",
+        "year": 2023,
+        "genre": "Rock, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 55000,
+            "date": "2023-07-31",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/jeRpLt5D8inz01w-NKEzQ5HGFQ_fAKohO4urK537trc/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDIw/OTY2LTE2NzU3Njk2/NzMtMzYyMS5qcGVn.jpeg",
+        "artist": "Lee Chanhyuk",
+        "title": "Error",
+        "year": 2023,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 43000,
+            "date": "2022-10-11",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/voPMhsGFofH5NU7VussOubLz9f856OXgMQ2qV9OtOrw/rs:fit/g:sm/q:90/h:532/w:532/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTIw/NjQ3LTE3MDA4NDIy/NzgtMzk2MC5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "Frozen: The Songs",
+        "year": 2023,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 51500,
+            "date": "2023-10-26",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/qzfeITaWuKvszYchkX0XdOQwy2KS7gFrqzU4HCdzw54/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3ODY0/MTk4LTE2OTExMzQ3/MjctNjY0MS5qcGVn.jpeg",
+        "artist": "Lauv",
+        "title": "I Met You When I Was 18.",
+        "year": 2023,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 46500,
+            "date": "2023-08-02",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/9TaJlgZNluoEKwYmTVvyyrSm9r8uhNYSnWVqB8teqIE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTk1/MTY3LTE2OTczMjA3/NzMtNDgzMC5qcGVn.jpeg",
+        "artist": "Ive",
+        "title": "I’ve Ive",
+        "year": 2023,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 46000,
+            "date": "2023-05-17",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/kkJxnamDuSEuJB5z4E76ZW8CSVbfhvKoD6tpR7U4cI0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MDY5/ODY3LTE2OTMwMjY0/NDEtNjYyNi5qcGVn.jpeg",
+        "artist": "Shiro Sagisu",
+        "title": "Neon Genesis Evangelion",
+        "year": 2023,
+        "genre": "Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 51500,
+            "date": "2023-07-21",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/syONV9CxtrfzlFd6MEJFeFCmxlMj5FySctLja642Rc0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MDMx/NzQzLTE2ODM5Nzk2/MjEtMzE1My5qcGVn.jpeg",
+        "artist": "Daft Punk",
+        "title": "Random Access Memories (10th Anniversary Edition)",
+        "year": 2023,
+        "genre": "Electronic, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 62500,
+            "date": "2023-04-18",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/nptjQiGXUQFWjDYsEDWxBEHb2UDirmMaUihWMHKSVz0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3MzAx/MDc0LTE2OTQxNzg2/ODktMjE5MS5qcGVn.jpeg",
+        "artist": "Tatsuro Yamashita",
+        "title": "Ride On Time = ライドオン・タイム",
+        "year": 2023,
+        "genre": "Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 68900,
+            "date": "2023-08-23",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/FxyK-Qc2-FVZ7Ho6AGOkkbfMb-2Ms3GXNzoKRzzm2t8/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDMz/NTEyLTE2NzU5NTQz/NDAtMzc2MS5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "Twelve Carat Toothache",
+        "year": 2023,
+        "genre": "Hip Hop, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 57500,
+            "date": "2023-02-20",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ajYDgEZjp3w385RNGmxWqRfBNIRxgmUrHljmtbE0mpY/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Nzc3/NTI1LTE2OTAzMTc2/MzYtMzAzMy5qcGVn.jpeg",
+        "artist": "Yoasobi",
+        "title": "アイドル",
+        "year": 2023,
+        "genre": "Electronic, Hip Hop, Pop, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 37500,
+            "date": "2023-12-17",
+            "location": "오프라인 매장"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/TxammXNMJNrCjsmpljSOz7ktJd7SaqzvommyooQ6bQA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzQw/MjY5LTE2NzgyNTQ0/MzUtMzA1Mi5qcGVn.jpeg",
+        "artist": "Radwimps",
+        "title": "すずめの戸締まり",
+        "year": 2023,
+        "genre": "Rock, Pop, Classical, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 67200,
+            "date": "2023-01-02",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/YtJGyQTLgPIheGRgk46cS_LOOI7aLjZzZ3s_35dQdhU/rs:fit/g:sm/q:90/h:571/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Mjgz/NTU2LTE3MDMzMTY4/MjUtNjM0NC5qcGVn.jpeg",
+        "artist": "Kessoku Band",
+        "title": "結束バンド",
+        "year": 2023,
+        "genre": "Rock, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 71000,
+            "date": "2024-01-30",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/p8HpTe-BJg2vsWYYBARad6QrKSTbeaHCrVhEyKrjzF8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MjIz/NTkyLTE3MDI3ODIw/NzUtMTMyMy5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "김광석 다시 부르기 I",
+        "year": 2023,
+        "genre": "Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49000,
+            "date": "2023-04-18",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/nJbHpZbUQveUHUc8c9hKEpcfJwcVCXGIH4bF_LNIA30/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MTE5/MTI3LTE2OTM1NDI2/NzctNzUyMS5qcGVn.jpeg",
+        "artist": "IU",
+        "title": "꽃갈피",
+        "year": 2023,
+        "genre": "Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 175000,
+            "date": "2023-08-19",
+            "location": "당근마켓"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/m6i6ZtixbqKGbrCkh0I3cTKtU7msfhRjJziW0nB1TtU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4MjYy/NDQzLTE2OTQ4MjQz/MDUtNzM0NC5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "네번째",
+        "year": 2023,
+        "genre": "Rock, Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45000,
+            "date": "2023-01-05",
+            "location": "서울바이닐"
         }
     }
 ]
