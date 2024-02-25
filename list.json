@@ -1,19 +1,5 @@
 [
     {
-        "cover": "https://i.discogs.com/dC-63cuQOjXV1IQKdEZKddT4oPishMFxVKyYvtwEZ7Q/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODAx/Mjc0LTE2MzQ4NTIx/NzAtMzg5MC5wbmc.jpeg",
-        "artist": "C418",
-        "title": "Minecraft Volume Alpha",
-        "year": 0,
-        "genre": "Electronic, Stage & Screen",
-        "format": "Vinyl",
-        "purchase": {
-            "currency": "KRW",
-            "price": 38800,
-            "date": "2023-08-23",
-            "location": "예스24"
-        }
-    },
-    {
         "cover": "https://i.discogs.com/vssV9cdejrPe7r4WW0n655PbOUDtRCJNuH9UzNpg0jA/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNzk5/NjMtMTQxOTI2NTAz/My00NTE4LmpwZWc.jpeg",
         "artist": "Taylor Swift",
         "title": "1989",
@@ -743,7 +729,7 @@
     },
     {
         "cover": "https://i.discogs.com/u3rIRCQjzw-iOqY83wwxlaUTU5GmlFLNv8FkIec7tfI/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MjA1/MzA0LTE2MTIxNjE5/NjMtMjE0Mi5qcGVn.jpeg",
-        "artist": "Blackpink",
+        "artist": "BLACKPINK",
         "title": "The Album",
         "year": 2021,
         "genre": "Pop",
@@ -907,6 +893,20 @@
             "price": 55000,
             "date": "2022-10-07",
             "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/jObXmvjBG4KafSzHD4wbrywLkrkaTqI3A0s01er17nc/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDE0/NjY2LTE2NzA3OTE2/MDMtODA2Ny5qcGVn.jpeg",
+        "artist": "Imagine Dragons",
+        "title": "Mercury - Act 2",
+        "year": 2022,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49400,
+            "date": "2023-01-25",
+            "location": "예스24"
         }
     },
     {
@@ -1120,6 +1120,20 @@
         }
     },
     {
+        "cover": "https://i.discogs.com/WzBY45hLPTaxEROG2uiJSocOkfMDFvNk_FBrF__cljM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1OTAx/MDYyLTE2NzQ4MTg5/NDgtOTk2Ny5qcGVn.jpeg",
+        "artist": "BLACKPINK",
+        "title": "Born Pink",
+        "year": 2023,
+        "genre": "Electronic, Hip Hop, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 57000,
+            "date": "2022-08-11",
+            "location": "서울바이닐"
+        }
+    },
+    {
         "cover": "https://i.discogs.com/jeRpLt5D8inz01w-NKEzQ5HGFQ_fAKohO4urK537trc/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDIw/OTY2LTE2NzU3Njk2/NzMtMzYyMS5qcGVn.jpeg",
         "artist": "Lee Chanhyuk",
         "title": "Error",
@@ -1172,6 +1186,20 @@
             "currency": "KRW",
             "price": 46000,
             "date": "2023-05-17",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/dDzSZdrVAFwtwgINuDIAlg_DCnlg66gvug4a_lhimqI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3ODk5/OTI1LTE2OTE0NTY4/NDktNTUwOC5qcGVn.jpeg",
+        "artist": "Jisoo",
+        "title": "Me",
+        "year": 2023,
+        "genre": "Pop",
+        "format": "Box Set",
+        "purchase": {
+            "currency": "KRW",
+            "price": 46500,
+            "date": "2023-03-18",
             "location": "서울바이닐"
         }
     },
