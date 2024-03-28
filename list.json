@@ -252,6 +252,20 @@
         }
     },
     {
+        "cover": "https://i.discogs.com/wWj0R9X1kS8KrpL3mt2Xc3vPrYN-U3gVbP54G9dMPEQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTA3/MzAzLTE1Mjg0NTMx/ODctNzMzNS5qcGVn.jpeg",
+        "artist": "Camila Cabello",
+        "title": "Camila",
+        "year": 2018,
+        "genre": "Latin, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 23700,
+            "date": "2024-03-25",
+            "location": "알라딘"
+        }
+    },
+    {
         "cover": "https://i.discogs.com/AfN_TNlgxLHgoBTnGwI_yh7Awg6--W9J8sfmTt5V3nc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyOTU0/MTM4LTE1NDUyNDQx/NDQtNDYyMy5qcGVn.jpeg",
         "artist": "Imagine Dragons",
         "title": "Origins",
@@ -347,6 +361,20 @@
             "price": 49500,
             "date": "2022-08-12",
             "location": "김밥레코즈"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/3-ZVz36B3kuwEVCGuvU9bo_kZes6tOxdeUU26MC_cg4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODEy/Njg0LTE1NjI0MzI0/NjQtNDE3NC5qcGVn.jpeg",
+        "artist": "Labrinth",
+        "title": "LSD",
+        "year": 2019,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 28000,
+            "date": "2024-03-25",
+            "location": "알라딘"
         }
     },
     {
@@ -550,7 +578,7 @@
         "artist": "The Weeknd",
         "title": "Blinding Lights",
         "year": 2021,
-        "genre": "Electronic, Rock, Pop",
+        "genre": "Electronic, Pop",
         "format": "Vinyl",
         "purchase": {
             "currency": "KRW",
@@ -1134,6 +1162,20 @@
         }
     },
     {
+        "cover": "https://i.discogs.com/NJXwExUROQMrXYitSom2ZAidNqu8odQTFBE2WHaxHkI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3ODM5/MzY0LTE2OTM4OTQ1/NjYtNjE2My5qcGVn.jpeg",
+        "artist": "Chet Baker",
+        "title": "Chet Baker Sings",
+        "year": 2023,
+        "genre": "Jazz",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 45800,
+            "date": "2024-03-25",
+            "location": "알라딘"
+        }
+    },
+    {
         "cover": "https://i.discogs.com/jeRpLt5D8inz01w-NKEzQ5HGFQ_fAKohO4urK537trc/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MDIw/OTY2LTE2NzU3Njk2/NzMtMzYyMS5qcGVn.jpeg",
         "artist": "Lee Chanhyuk",
         "title": "Error",
@@ -1260,7 +1302,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/ajYDgEZjp3w385RNGmxWqRfBNIRxgmUrHljmtbE0mpY/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Nzc3/NTI1LTE2OTAzMTc2/MzYtMzAzMy5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/buvVzBlD7AeUanGbDwnznqibW8F9C8ezli-9AjS4tzU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Nzc3/NTI1LTE3MTEyMjA1/NzQtNzI2Mi5qcGVn.jpeg",
         "artist": "Yoasobi",
         "title": "アイドル",
         "year": 2023,
@@ -1340,6 +1382,34 @@
             "currency": "KRW",
             "price": 45000,
             "date": "2023-01-05",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/wQd6gArbqNbuhG29O-Fm7Y8Q6oghQ0Wxz0hiho7W4QI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDM1/NTc1LTE3MTAwMjU5/NjQtODM5OS5qcGVn.jpeg",
+        "artist": "Ariana Grande",
+        "title": "Eternal Sunshine",
+        "year": 2024,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 54600,
+            "date": "2024-03-22",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/ZnHF3xtQ1f1mMeZ_iuQp9qKcG2POITIcfGADV0ecX3w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5ODg2/NDgxLTE3MDk4OTk4/MjYtNTAyOS5qcGVn.jpeg",
+        "artist": "Post Malone",
+        "title": "The Diamond Collection",
+        "year": 2024,
+        "genre": "Hip Hop, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 61500,
+            "date": "2024-01-31",
             "location": "서울바이닐"
         }
     }
