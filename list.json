@@ -1412,5 +1412,19 @@
             "date": "2024-01-31",
             "location": "서울바이닐"
         }
+    },
+    {
+        "cover": "https://i.discogs.com/yiDJFAK8J09VirtmTRQ3yeNuRcQ4DH1skBLtlLTJWJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjMx/NDcwLTE3MTE2MzE0/NjQtNzczNi5qcGVn.jpeg",
+        "artist": "Radwimps",
+        "title": "天気の子",
+        "year": 2024,
+        "genre": "Rock, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 64000,
+            "date": "2023-08-18",
+            "location": "서울바이닐"
+        }
     }
 ]
