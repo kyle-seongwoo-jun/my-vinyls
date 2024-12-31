@@ -34,7 +34,7 @@ async function getReleases(): Promise<Release[]> {
 
 function convert(release: Release) {
   const {
-    basic_information: { cover_image, artists, title, year, genres, formats },
+    basic_information: { cover_image, artists, title, year, genres, formats, resource_url },
     notes,
   } = release;
 
@@ -60,6 +60,8 @@ function convert(release: Release) {
     location,
   };
 
+  const url = resource_url.replace('api.discogs.com/releases/', 'www.discogs.com/release/');
+
   return {
     cover,
     artist,
@@ -69,6 +71,7 @@ function convert(release: Release) {
     format,
     // country,
     purchase,
+    url,
   };
 }
 
