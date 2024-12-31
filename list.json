@@ -6,6 +6,7 @@
         "year": 2014,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 48100,
@@ -36,6 +37,7 @@
         "year": 2014,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 34500,
@@ -51,6 +53,7 @@
         "year": 2015,
         "genre": "Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 60000,
@@ -66,6 +69,7 @@
         "year": 2015,
         "genre": "Electronic, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 28600,
@@ -96,6 +100,7 @@
         "year": 2015,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 31400,
@@ -111,6 +116,7 @@
         "year": 2015,
         "genre": "Rock, Pop",
         "format": "Box Set",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 554900,
@@ -126,6 +132,7 @@
         "year": 2016,
         "genre": "Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36400,
@@ -141,6 +148,7 @@
         "year": 2016,
         "genre": "Electronic, Rock, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 39000,
@@ -156,6 +164,7 @@
         "year": 2016,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 42000,
@@ -171,6 +180,7 @@
         "year": 2016,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 45500,
@@ -186,6 +196,7 @@
         "year": 2017,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 26500,
@@ -201,6 +212,7 @@
         "year": 2017,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 34500,
@@ -216,6 +228,7 @@
         "year": 2017,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 35000,
@@ -231,6 +244,7 @@
         "year": 2017,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 44500,
@@ -246,6 +260,7 @@
         "year": 2017,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 50700,
@@ -261,6 +276,7 @@
         "year": 2018,
         "genre": "Hip Hop, Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 40000,
@@ -291,6 +307,7 @@
         "year": 2018,
         "genre": "Latin, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 23700,
@@ -306,6 +323,7 @@
         "year": 2018,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 48600,
@@ -321,6 +339,7 @@
         "year": 2018,
         "genre": "Hip Hop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 59000,
@@ -336,6 +355,7 @@
         "year": 2018,
         "genre": "Hip Hop, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 48200,
@@ -351,6 +371,7 @@
         "year": 2018,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36500,
@@ -366,6 +387,7 @@
         "year": 2019,
         "genre": "Rock, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36500,
@@ -381,6 +403,7 @@
         "year": 2019,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 64400,
@@ -396,6 +419,7 @@
         "year": 2019,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 49500,
@@ -406,11 +430,12 @@
     },
     {
         "cover": "https://i.discogs.com/3-ZVz36B3kuwEVCGuvU9bo_kZes6tOxdeUU26MC_cg4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODEy/Njg0LTE1NjI0MzI0/NjQtNDE3NC5qcGVn.jpeg",
-        "artist": "Labrinth",
+        "artist": "LSD",
         "title": "LSD",
         "year": 2019,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 28000,
@@ -426,6 +451,7 @@
         "year": 2019,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 40400,
@@ -456,6 +482,7 @@
         "year": 2019,
         "genre": "Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 51000,
@@ -471,6 +498,7 @@
         "year": 2019,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 49980,
@@ -486,6 +514,7 @@
         "year": 2019,
         "genre": "Hip Hop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36000,
@@ -501,6 +530,7 @@
         "year": 2020,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 50000,
@@ -516,6 +546,7 @@
         "year": 2020,
         "genre": "Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 85000,
@@ -531,6 +562,7 @@
         "year": 2020,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 45500,
@@ -546,6 +578,7 @@
         "year": 2020,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "USD",
             "price": 36.81,
@@ -561,6 +594,7 @@
         "year": 2020,
         "genre": "Hip Hop, Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 56100,
@@ -576,6 +610,7 @@
         "year": 2020,
         "genre": "Hip Hop, Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 100000,
@@ -591,6 +626,7 @@
         "year": 2020,
         "genre": "Hip Hop, Funk / Soul",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 32900,
@@ -606,6 +642,7 @@
         "year": 2020,
         "genre": "Electronic, Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 28600,
@@ -621,6 +658,7 @@
         "year": 2021,
         "genre": "Electronic, Pop",
         "format": "Box Set",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 42000,
@@ -636,6 +674,7 @@
         "year": 2021,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 37500,
@@ -651,6 +690,7 @@
         "year": 2021,
         "genre": "Electronic",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 65000,
@@ -681,6 +721,7 @@
         "year": 2021,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 34600,
@@ -696,6 +737,7 @@
         "year": 2021,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 50000,
@@ -711,6 +753,7 @@
         "year": 2021,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 40300,
@@ -726,6 +769,7 @@
         "year": 2021,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 54800,
@@ -741,6 +785,7 @@
         "year": 2021,
         "genre": "Electronic, Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 47200,
@@ -756,6 +801,7 @@
         "year": 2021,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 49400,
@@ -771,6 +817,7 @@
         "year": 2021,
         "genre": "Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "JPY",
             "price": 7800,
@@ -786,6 +833,7 @@
         "year": 2021,
         "genre": "Hip Hop, Jazz, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 41500,
@@ -801,6 +849,7 @@
         "year": 2021,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36500,
@@ -816,6 +865,7 @@
         "year": 2021,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 27830,
@@ -831,6 +881,7 @@
         "year": 2021,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 52000,
@@ -846,6 +897,7 @@
         "year": 2021,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 54600,
@@ -861,6 +913,7 @@
         "year": 2021,
         "genre": "Hip Hop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 90000,
@@ -876,6 +929,7 @@
         "year": 2021,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 78000,
@@ -891,6 +945,7 @@
         "year": 2022,
         "genre": "Funk / Soul",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 39500,
@@ -906,6 +961,7 @@
         "year": 2022,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 37500,
@@ -921,6 +977,7 @@
         "year": 2022,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 44000,
@@ -936,6 +993,7 @@
         "year": 2022,
         "genre": "Jazz, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 39800,
@@ -951,6 +1009,7 @@
         "year": 2022,
         "genre": "Electronic, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 51200,
@@ -966,6 +1025,7 @@
         "year": 2022,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 50100,
@@ -996,6 +1056,7 @@
         "year": 2022,
         "genre": "Electronic, Hip Hop, Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 55000,
@@ -1011,6 +1072,7 @@
         "year": 2022,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 49400,
@@ -1026,6 +1088,7 @@
         "year": 2022,
         "genre": "Pop",
         "format": "Box Set",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 46000,
@@ -1041,6 +1104,7 @@
         "year": 2022,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 58500,
@@ -1056,6 +1120,7 @@
         "year": 2022,
         "genre": "Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 35800,
@@ -1071,6 +1136,7 @@
         "year": 2022,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 55000,
@@ -1116,6 +1182,7 @@
         "year": 2022,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 53500,
@@ -1126,11 +1193,12 @@
     },
     {
         "cover": "https://i.discogs.com/L8O4u65eEeKwQCuTNUwfpSk9YBMQgV_fGtZs3IpDcj8/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTA0/NjI4LTE2NzMwODY1/OTQtMzg2MS5qcGVn.jpeg",
-        "artist": "Radwimps",
+        "artist": "RADWIMPS",
         "title": "君の名は。",
         "year": 2022,
         "genre": "Rock, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 61000,
@@ -1146,6 +1214,7 @@
         "year": 2022,
         "genre": "Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 60000,
@@ -1161,6 +1230,7 @@
         "year": 2022,
         "genre": "Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 110000,
@@ -1191,6 +1261,7 @@
         "year": 2023,
         "genre": "Rock, Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 45000,
@@ -1206,6 +1277,7 @@
         "year": 2023,
         "genre": "Rock, Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 45000,
@@ -1221,6 +1293,7 @@
         "year": 2023,
         "genre": "Rock, Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 45000,
@@ -1236,6 +1309,7 @@
         "year": 2023,
         "genre": "Rock, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 55000,
@@ -1251,6 +1325,7 @@
         "year": 2023,
         "genre": "Electronic, Hip Hop, Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 57000,
@@ -1266,6 +1341,7 @@
         "year": 2023,
         "genre": "Jazz",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 45800,
@@ -1281,6 +1357,7 @@
         "year": 2023,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 43000,
@@ -1311,6 +1388,7 @@
         "year": 2023,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 46500,
@@ -1326,6 +1404,7 @@
         "year": 2023,
         "genre": "Electronic, Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 46000,
@@ -1341,6 +1420,7 @@
         "year": 2023,
         "genre": "Pop",
         "format": "Box Set",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 46500,
@@ -1356,6 +1436,7 @@
         "year": 2023,
         "genre": "Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 51500,
@@ -1371,6 +1452,7 @@
         "year": 2023,
         "genre": "Electronic, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 62500,
@@ -1386,6 +1468,7 @@
         "year": 2023,
         "genre": "Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 68900,
@@ -1401,6 +1484,7 @@
         "year": 2023,
         "genre": "Hip Hop, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 57500,
@@ -1416,6 +1500,7 @@
         "year": 2023,
         "genre": "Electronic, Hip Hop, Pop, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 37500,
@@ -1426,11 +1511,12 @@
     },
     {
         "cover": "https://i.discogs.com/TxammXNMJNrCjsmpljSOz7ktJd7SaqzvommyooQ6bQA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MzQw/MjY5LTE2NzgyNTQ0/MzUtMzA1Mi5qcGVn.jpeg",
-        "artist": "Radwimps",
+        "artist": "RADWIMPS",
         "title": "すずめの戸締まり",
         "year": 2023,
         "genre": "Rock, Pop, Classical, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 67200,
@@ -1446,6 +1532,7 @@
         "year": 2023,
         "genre": "Rock, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 71000,
@@ -1461,6 +1548,7 @@
         "year": 2023,
         "genre": "Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 49000,
@@ -1476,6 +1564,7 @@
         "year": 2023,
         "genre": "Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 175000,
@@ -1491,6 +1580,7 @@
         "year": 2023,
         "genre": "Rock, Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 45000,
@@ -1506,6 +1596,7 @@
         "year": 2024,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 54600,
@@ -1536,6 +1627,7 @@
         "year": 2024,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 50000,
@@ -1551,6 +1643,7 @@
         "year": 2024,
         "genre": "Hip Hop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 57500,
@@ -1566,6 +1659,7 @@
         "year": 2024,
         "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "USD",
             "price": 22.24,
@@ -1581,6 +1675,7 @@
         "year": 2024,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 68500,
@@ -1596,6 +1691,7 @@
         "year": 2024,
         "genre": "Rock, Funk / Soul, Pop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 66500,
@@ -1611,6 +1707,7 @@
         "year": 2024,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 77000,
@@ -1626,6 +1723,7 @@
         "year": 2024,
         "genre": "Hip Hop, Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 61500,
@@ -1636,11 +1734,12 @@
     },
     {
         "cover": "https://i.discogs.com/yiDJFAK8J09VirtmTRQ3yeNuRcQ4DH1skBLtlLTJWJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjMx/NDcwLTE3MTE2MzE0/NjQtNzczNi5qcGVn.jpeg",
-        "artist": "Radwimps",
+        "artist": "RADWIMPS",
         "title": "天気の子",
         "year": 2024,
         "genre": "Rock, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 64000,
@@ -1656,6 +1755,7 @@
         "year": 2024,
         "genre": "Rock, Pop, Folk, World, & Country",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 49000,
@@ -1671,6 +1771,7 @@
         "year": 2024,
         "genre": "Rock",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 46000,
@@ -1686,6 +1787,7 @@
         "year": 2024,
         "genre": "Hip Hop",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 46000,
