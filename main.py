@@ -98,7 +98,8 @@ class App:
     def update_query_params(self):
         st.query_params = dict(
             search=st.session_state.get('search'),
-            group=st.session_state.get('group')
+            group=st.session_state.get('group'),
+            order=st.session_state.get('order'),
         )
 
     def clear_query_params(self):
@@ -123,6 +124,7 @@ class App:
 
         search_param = st.query_params.get('search', '')
         group_param = st.query_params.get('group', 'format')
+        order_param = st.query_params.get('order', 'ascending')
 
         search = self.filter.text_input('search', 
                                         key='search', 
@@ -130,9 +132,9 @@ class App:
                                         on_change=lambda: self.update_query_params())
         
         group_name = self.options.radio('group by',
+                                        key='group',
                                         options=list(group_by.keys()),
                                         index=list(group_by.keys()).index(group_param),
-                                        key='group',
                                         on_change=lambda: self.update_query_params())
         
         group_info = group_by[group_name]
@@ -156,7 +158,13 @@ class App:
 
         # sort keys by options
         disable_order = group_name == 'none' or len(table) == 1
-        group_order = self.options.radio('order', ['ascending', 'descending'], index=0, key='order', horizontal=True, disabled=disable_order)
+        group_order = self.options.radio('order', 
+                                         options=['ascending', 'descending'], 
+                                         index=['ascending', 'descending'].index(order_param), 
+                                         key='order', 
+                                         horizontal=True, 
+                                         disabled=disable_order,
+                                         on_change=lambda: self.update_query_params())
         table = dict(sorted(
             table.items(), 
             # natural sort (https://stackoverflow.com/a/31432964) for purchase_price
@@ -197,7 +205,7 @@ class App:
 
         # clear filter and options
         st.sidebar.button('clear filter and options',
-                        disabled=(search == '' and group_name == 'format'),
+                        disabled=(search == '' and group_name == 'format' and order_param == 'ascending'),
                         on_click=lambda: self.clear_query_params())
             
         # display footer
