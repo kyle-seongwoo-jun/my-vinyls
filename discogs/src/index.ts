@@ -7,9 +7,9 @@ const ARTIST_ALIAS = {
   "Blackpink": "BLACKPINK",
 };
 
-const { USERNAME, DISCOGS_API_KEY } = process.env;
-if (!USERNAME || !DISCOGS_API_KEY) {
-  throw new Error("USERNAME and DISCOGS_API_KEY must be set");
+const { DISCOGS_USERNAME, DISCOGS_API_KEY } = process.env;
+if (!DISCOGS_USERNAME || !DISCOGS_API_KEY) {
+  throw new Error("DISCOGS_USERNAME and DISCOGS_API_KEY must be set");
 }
 
 const client = new DiscogsClient({
@@ -22,7 +22,7 @@ async function getReleases(): Promise<Release[]> {
   let page = 1;
   let releases: Release[] = [];
   do {
-    const response = await client.user().collection().getReleases(USERNAME!, 0, {
+    const response = await client.user().collection().getReleases(DISCOGS_USERNAME!, 0, {
       sort: "year",
       sort_order: "asc",
       page,

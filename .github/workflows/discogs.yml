@@ -27,7 +27,7 @@ jobs:
       - name: Scrape Discogs
         run: node discogs/dist/index.js > list.json
         env:
-          USERNAME: "kyle-seongwoo-jun"
+          DISCOGS_USERNAME: "kyle-seongwoo-jun"
           DISCOGS_API_KEY: ${{ secrets.DISCOGS_API_KEY }}
 
       - name: Get current date
