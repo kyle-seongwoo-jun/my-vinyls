@@ -62,17 +62,25 @@ class App:
                 record.purchase.currency = 'KRW'
         return records
 
-    def generate_summary_string(self, group_name: Optional[str] = None):
-        total_count_by_format = group_and_count([record.format for record in self.data])
+    def generate_summary_string(self, records: list[Record], include_price: bool = False, sub_header: bool = False):
+        total_count_by_format = group_and_count([record.format for record in records])
         total_count_by_format_as_string = "".join([f"{count} {format}s, " for format, count in total_count_by_format.items()])[:-2]
 
-        if group_name in ['purchase_price', 'purchase_date', 'purchase_location']:
-            total_price_by_currency = group_and_sum([record.purchase_price for record in self.data if record.purchase_price is not None])
+        if include_price:
+            total_price_by_currency = group_and_sum([record.purchase_price for record in records if record.purchase_price is not None])
             total_price_by_currency_as_string = "".join([f"{format_currency(price, currency)}, " for currency, price in total_price_by_currency.items()])[:-2]
         else:
             total_price_by_currency_as_string = ''
 
-        return f'Totally {total_count_by_format_as_string}' + (f' and {total_price_by_currency_as_string}' if total_price_by_currency_as_string else '')
+        if not sub_header:
+            return f'Totally {total_count_by_format_as_string}' + (f' and {total_price_by_currency_as_string}' if total_price_by_currency_as_string else '')
+        else:
+            return '<div style="color: gray">' + ', '.join([
+                value for value in [
+                    total_count_by_format_as_string,
+                    total_price_by_currency_as_string,
+                ] if value
+            ]) + '</div>'
 
 
     def genenerate_group_key(self, record: Record, group_name: str) -> str:
@@ -199,6 +207,11 @@ class App:
             st.write('---')
             if group_name != 'none':
                 st.subheader(group)
+                st.markdown(self.generate_summary_string(records,
+                                                        include_price=group_name in ['artist', 'purchase_date', 'purchase_location'], 
+                                                        sub_header=True), 
+                            unsafe_allow_html=True)
+                st.write('')
 
             record_widget = RecordGroup(group_name)
             for record in records:
@@ -214,7 +227,7 @@ class App:
         if search:
             summary_string = f'Found {sum([len(records) for records in table.values()])} records for "{search}"'
         else:
-            summary_string = self.generate_summary_string(group_name=group_name)
+            summary_string = self.generate_summary_string(self.data, include_price=group_name in ['purchase_price', 'purchase_date', 'purchase_location'])
         summary.markdown(summary_string)
 
         # clear filter and options
