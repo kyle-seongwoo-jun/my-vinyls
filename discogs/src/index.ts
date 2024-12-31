@@ -1,11 +1,7 @@
 import { DiscogsClient } from "@lionralfs/discogs-client";
 import type { GetReleasesResponse } from "@lionralfs/discogs-client/types/collection";
-
+import { ARTIST_ALIAS } from "./artist-alias.js";
 type Release = GetReleasesResponse["releases"][number];
-
-const ARTIST_ALIAS = {
-  "Blackpink": "BLACKPINK",
-};
 
 const { DISCOGS_USERNAME, DISCOGS_API_KEY } = process.env;
 if (!DISCOGS_USERNAME || !DISCOGS_API_KEY) {
