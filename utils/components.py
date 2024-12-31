@@ -37,7 +37,7 @@ class RecordGroup:
 
         html = f"""
 <div style="display: inline-block; width: 150px; height: 260; margin: 0px 10px 10px 0px; vertical-align: top;">
-    <img width="150" height="150" src="{record.cover}" style="border-radius: 7px;"/>
+    {f'<a href="{record.url}" target="_blank">' if record.url else ''}<img width="150" height="150" src="{record.cover}" style="border-radius: 7px;"/>{f'</a>' if record.url else ''}
     <div class="vinyl-info">
         <b>{record.title}</b>
         <div style="color: gray; font-size: 12px;">

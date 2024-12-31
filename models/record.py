@@ -14,6 +14,7 @@ class Record(BaseModel):
     # optional
     country: Optional[str] = 'N/A'
     purchase: Optional[PurchaseInfo] = None
+    url: Optional[str] = None
 
     @property
     def purchase_date(self) -> Optional[str]:
