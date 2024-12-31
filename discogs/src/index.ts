@@ -1,6 +1,6 @@
 import { DiscogsClient } from "@lionralfs/discogs-client";
 import type { GetReleasesResponse } from "@lionralfs/discogs-client/types/collection";
-import { ARTIST_ALIAS } from "./artist-alias.js";
+import { ARTIST_ALIAS, ARTIST_COUNTRY } from "./artist-constants.js";
 type Release = GetReleasesResponse["releases"][number];
 
 const { DISCOGS_USERNAME, DISCOGS_API_KEY } = process.env;
@@ -39,14 +39,11 @@ function convert(release: Release) {
   } = release;
 
   const cover = cover_image;
-  let artist = artists[0].name.replace(/ \(\d+\)$/, "");
-  if (ARTIST_ALIAS[artist]) {
-    artist = ARTIST_ALIAS[artist];
-  }
+  const artist = artists[0].name.replace(/ \(\d+\)$/, "");
   const genre = genres.join(", ");
-  // const format = formats.map(x => x.name).join(', ')
   const format = formats[0].name;
-  // const country = ''
+
+  const country = ARTIST_COUNTRY[artist];
 
   const cur_price = notes.find((x) => x.field_id === 4)!.value.split(" ");
   const currency = cur_price[0];
@@ -64,12 +61,12 @@ function convert(release: Release) {
 
   return {
     cover,
-    artist,
+    artist: ARTIST_ALIAS[artist] || artist,
     title,
     year,
     genre,
     format,
-    // country,
+    country,
     purchase,
     url,
   };
