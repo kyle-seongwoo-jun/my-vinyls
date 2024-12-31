@@ -146,7 +146,9 @@ class App:
             for record in self.data 
             if search.lower() in str(record).lower()
         ] if search else self.data
-        records = sorted(records, key=attrgetter(*sort_by))
+        # TODO: sort only the first attribute in descending order and the rest in ascending order
+        need_reverse = (group_name == 'purchase_date' or group_name == 'purchase_price') and order_param == 'descending'
+        records = sorted(records, key=attrgetter(*sort_by), reverse=need_reverse)
 
         # group by options
         table = {}
