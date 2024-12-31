@@ -1,5 +1,5 @@
 from utils.components import RecordGroup
-from utils.streamlit_util import remove_streamlit_style, get_query_params_from_url, set_query_params_to_url
+from utils.streamlit_util import remove_streamlit_style
 from utils.collection_util import group_and_count, group_and_sum
 from babel.numbers import format_currency
 from models.record import Record
@@ -95,11 +95,14 @@ class App:
     
         return group
     
-    def get_cached_params(self):
-        return dict(
+    def update_query_params(self):
+        st.query_params = dict(
             search=st.session_state.get('search'),
             group=st.session_state.get('group')
         )
+
+    def clear_query_params(self):
+        st.query_params = {}
 
     def run(self):
         st.title('Records')
@@ -118,20 +121,19 @@ class App:
         }
 
 
-        param = get_query_params_from_url()
-        search_param = param.get('search', '')
-        group_param = param.get('group', 'format')
+        search_param = st.query_params.get('search', '')
+        group_param = st.query_params.get('group', 'format')
 
         search = self.filter.text_input('search', 
                                         key='search', 
                                         value=search_param, 
-                                        on_change=lambda: set_query_params_to_url(self.get_cached_params()))
+                                        on_change=lambda: self.update_query_params())
         
         group_name = self.options.radio('group by',
                                         options=list(group_by.keys()),
                                         index=list(group_by.keys()).index(group_param),
                                         key='group',
-                                        on_change=lambda: set_query_params_to_url(self.get_cached_params()))
+                                        on_change=lambda: self.update_query_params())
         
         group_info = group_by[group_name]
         sort_by = group_info.get('sort_by')
@@ -196,7 +198,7 @@ class App:
         # clear filter and options
         st.sidebar.button('clear filter and options',
                         disabled=(search == '' and group_name == 'format'),
-                        on_click=lambda: set_query_params_to_url({}))
+                        on_click=lambda: self.clear_query_params())
             
         # display footer
         st.sidebar.divider()
