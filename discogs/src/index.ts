@@ -3,6 +3,10 @@ import type { GetReleasesResponse } from "@lionralfs/discogs-client/types/collec
 
 type Release = GetReleasesResponse["releases"][number];
 
+const ARTIST_ALIAS = {
+  "Blackpink": "BLACKPINK",
+};
+
 const { USERNAME, DISCOGS_API_KEY } = process.env;
 if (!USERNAME || !DISCOGS_API_KEY) {
   throw new Error("USERNAME and DISCOGS_API_KEY must be set");
@@ -39,7 +43,10 @@ function convert(release: Release) {
   } = release;
 
   const cover = cover_image;
-  const artist = artists[0].name.replace(/ \(\d+\)$/, "");
+  let artist = artists[0].name.replace(/ \(\d+\)$/, "");
+  if (ARTIST_ALIAS[artist]) {
+    artist = ARTIST_ALIAS[artist];
+  }
   const genre = genres.join(", ");
   // const format = formats.map(x => x.name).join(', ')
   const format = formats[0].name;
