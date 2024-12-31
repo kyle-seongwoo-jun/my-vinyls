@@ -208,7 +208,7 @@ class App:
             if group_name != 'none':
                 st.subheader(group)
                 st.markdown(self.generate_summary_string(records,
-                                                        include_price=group_name in ['artist', 'purchase_date', 'purchase_location'], 
+                                                        include_price=group_name in ['artist', 'country', 'purchase_date', 'purchase_location'], 
                                                         sub_header=True), 
                             unsafe_allow_html=True)
                 st.write('')

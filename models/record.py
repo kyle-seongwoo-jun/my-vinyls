@@ -12,7 +12,7 @@ class Record(BaseModel):
     format: str
 
     # optional
-    country: Optional[str] = 'N/A'
+    country: Optional[str] = None
     purchase: Optional[PurchaseInfo] = None
     url: Optional[str] = None
 
