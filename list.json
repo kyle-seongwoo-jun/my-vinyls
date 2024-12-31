@@ -140,7 +140,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/qnxU8k7MotYZn-ktnSUtc4QQ7NDu46jui7Vb_-knXt0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxMTkz/MjAtMTQ3NTEwMTUx/MC00MjIwLmpwZWc.jpeg",
+        "cover": "https://i.discogs.com/uNLKDlXlcjIMju9-A8IGMdIyMpY9xZtsKpXTHpKrUYc/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxMTkz/MjAtMTczNDI3MTYy/NS05NDk3LmpwZWc.jpeg",
         "artist": "Maroon 5",
         "title": "Songs About Jane",
         "year": 2016,
@@ -168,6 +168,20 @@
         }
     },
     {
+        "cover": "https://i.discogs.com/D3YAGzEaKECPgggwO-ueuWKct30tL2o_jo606yCEVik/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2NTA0/NDUtMTQ4NDIxNzM4/Ny01NjIyLmpwZWc.jpeg",
+        "artist": "The Chainsmokers",
+        "title": "Collage",
+        "year": 2017,
+        "genre": "Electronic, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 26500,
+            "date": "2024-09-07",
+            "location": "예스24"
+        }
+    },
+    {
         "cover": "https://i.discogs.com/dRj_p-TcuMFnV_1heafS_swPcuuGaLNWhCEJgJdG3ro/rs:fit/g:sm/q:90/h:604/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTU5/MTEyLTE1MDMwMDky/NjctNzAwNS5qcGVn.jpeg",
         "artist": "Imagine Dragons",
         "title": "Evolve",
@@ -182,7 +196,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/2eyzN0WwAfXDEmcLLDxBCH5l14nk65Tosc-J8noNV-Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzM5/ODA1LTE0OTU2MTcy/NDMtNDQ0MS5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/GNHa118k-KoipPPB27u0-7RVG0ZfApZvQd97uaySPnI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzM5/ODA1LTE3MzM5OTk2/MTAtNzgzNC5qcGVn.jpeg",
         "artist": "Harry Styles",
         "title": "Harry Styles",
         "year": 2017,
@@ -252,7 +266,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/wWj0R9X1kS8KrpL3mt2Xc3vPrYN-U3gVbP54G9dMPEQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTA3/MzAzLTE1Mjg0NTMx/ODctNzMzNS5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/n5ymQf6ImMFsjJ9ZKz7VASDpujEwwn_MxYqF4yE5x_8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTA3/MzAzLTE3MzI0NDM3/MjItNzM2Ny5qcGVn.jpeg",
         "artist": "Camila Cabello",
         "title": "Camila",
         "year": 2018,
@@ -350,7 +364,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/e8g0eXp5EA0_jt-mYm9Ah5c2DKn8G9WPMNzWBGUO3Uc/rs:fit/g:sm/q:90/h:601/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA4/MjQ0LTE1NzM5MjMx/MDctMjk2NS5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/dJQ6jPIq0gQuJmuUa4vdoCoK6KBJfsbTz0Uq5dhLdvk/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA4/MjQ0LTE1NzM5MjIx/MjQtMjIzNC5qcGVn.jpeg",
         "artist": "Taylor Swift",
         "title": "Lover",
         "year": 2019,
@@ -546,7 +560,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/5AthW35C7aNs7D3N1Por49_iItnbsdPAYyaAVMJrseY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDQ5/NTE0LTE2MTMyMTIx/NzctNDQzNi5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/mRFsnovf1YSLsF4lht7lslL6hGKR20QLmKLpNUpZsew/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDQ5/NTE0LTE3MzM2Mzcw/NDEtMjk0Mi5qcGVn.jpeg",
         "artist": "Cyndi Lauper",
         "title": "She's So Unusual",
         "year": 2020,
@@ -742,7 +756,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/9kumWZ74__u02T7pEvY5UJZNZB3l8-uCDsOKzDAUJTs/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTI3/NTA0LTE2Mjk1MTMx/MjYtMzA1Ni5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/jVInp01wPyEUqa8zRHemHeYGD4wO2JlOrGucGXDzawc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5OTI3/NTA0LTE3MzQ3OTg5/MTgtNzE4Mi5qcGVn.jpeg",
         "artist": "Olivia Rodrigo",
         "title": "Sour",
         "year": 2021,
@@ -882,7 +896,7 @@
         }
     },
     {
-        "cover": "https://i.discogs.com/KS7DMrXwag0vajOEWYY4GGO5F6KeUawarYGuzx6B3PY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg1/ODIyLTE2OTMzOTcy/NTgtODkzNy5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/clP9-UZBtTPxGB3QRVfRGB8H38_pfIHFhc-TQDd4NEs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg1/ODIyLTE3MzQwMTA0/MzYtMzY2MC5qcGVn.jpeg",
         "artist": "Harry Styles",
         "title": "Harry’s House",
         "year": 2022,
@@ -935,20 +949,6 @@
             "price": 49400,
             "date": "2023-01-25",
             "location": "예스24"
-        }
-    },
-    {
-        "cover": "https://i.discogs.com/OinH6a6bzs_EwNRPyWfUDwOvG6rTrT79prpwHNDlsmQ/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDk0/NzUyLTE2Njc5MDMz/OTgtOTU4Ni5qcGVn.jpeg",
-        "artist": "Various",
-        "title": "Nevertheless (알고 있지만) OST",
-        "year": 2022,
-        "genre": "Pop",
-        "format": "Vinyl",
-        "purchase": {
-            "currency": "KRW",
-            "price": 60000,
-            "date": "2022-04-07",
-            "location": "서울바이닐"
         }
     },
     {
@@ -1089,6 +1089,20 @@
             "price": 110000,
             "date": "2022-03-27",
             "location": "번개장터"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/JUTqCnOO9BRPRuG7Ik_HGHX5LIaQfsQyQVY07mLEjx8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDk0/NzUyLTE3MjQ5Nzgz/ODItMTQ2My5qcGVn.jpeg",
+        "artist": "Various",
+        "title": "알고있지만, (Original Sound Track)",
+        "year": 2022,
+        "genre": "Pop, Stage & Screen",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 60000,
+            "date": "2022-04-07",
+            "location": "서울바이닐"
         }
     },
     {
@@ -1414,17 +1428,87 @@
         }
     },
     {
+        "cover": "https://i.discogs.com/QPrYMkYOkiFuP59-S9CcPHsIXfk90YBzKwxrIts71tA/rs:fit/g:sm/q:90/h:678/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTc4/NDQ1LTE3Mjg3Mjkx/MzgtMTc3My5qcGVn.jpeg",
+        "artist": "Akdong Musician",
+        "title": "Love episode",
+        "year": 2024,
+        "genre": "Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 50000,
+            "date": "2024-06-17",
+            "location": "예스24"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/EBnZbFzrt8n7_lNk2X7avExtqBIGGFP6I_O6k62p4S0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNzE0/NzY5LTE3MjYxMjkw/MDEtNzI0Ni5qcGVn.jpeg",
+        "artist": "Beenzino",
+        "title": "NOWITZKI",
+        "year": 2024,
+        "genre": "Hip Hop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 57500,
+            "date": "2024-07-08",
+            "location": "서울바이닐"
+        }
+    },
+    {
         "cover": "https://i.discogs.com/kDNCpOzn--A_Qvu7N-sekzw9MgvZO4QdHkQwTdr4xpc/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTk4/NjU2LTE3MTg5MjMx/MzEtNzM5My5qcGVn.jpeg",
         "artist": "The Weeknd",
         "title": "One Of The Girls + Popular",
         "year": 2024,
-        "genre": "Pop",
+        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
         "format": "Vinyl",
         "purchase": {
             "currency": "USD",
             "price": 22.24,
             "date": "2024-07-03",
             "location": "해외 직구"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/REmzC1dJeOIRbbMjKNAFoESLTB_1C64hs93eo18koTQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjA5/ODAzLTE3MzA4NzIy/NzMtMTkyNy5qcGVn.jpeg",
+        "artist": "Silica Gel",
+        "title": "Power Andre 99",
+        "year": 2024,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 68500,
+            "date": "2024-04-29",
+            "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/kfYqsPg3vwf1oePJZNkeB7KC5VfttiujPZ9eYjkyKdY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTEz/NTcxLTE3MzU1MzI5/ODItMTk2NC5qcGVn.jpeg",
+        "artist": "Rosé",
+        "title": "Rosie",
+        "year": 2024,
+        "genre": "Rock, Funk / Soul, Pop",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 66500,
+            "date": "2024-11-27",
+            "location": "네이버 스마트스토어"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/63MJp8o1L1SdXpowvoaDuGm0YLLdC-a_eBIj1oqNfpw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMTYz/NTU1LTE3MzA0Mzc3/MTUtNTc5NS5qcGVn.jpeg",
+        "artist": "검정치마",
+        "title": "Teen Troubles",
+        "year": 2024,
+        "genre": "Rock",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 77000,
+            "date": "2024-08-14",
+            "location": "예스24"
         }
     },
     {
@@ -1453,6 +1537,20 @@
             "price": 64000,
             "date": "2023-08-18",
             "location": "서울바이닐"
+        }
+    },
+    {
+        "cover": "https://i.discogs.com/2KvFz-oCESUgj0LW8KPnfrRtJBeBd2Vo2OHz4hI5z7E/rs:fit/g:sm/q:90/h:617/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMTU1/NDA0LTE3MzA3MTgx/ODUtNzU4OC5qcGVn.jpeg",
+        "artist": "Kim Kwang Seok",
+        "title": "다시부르기 II",
+        "year": 2024,
+        "genre": "Rock, Pop, Folk, World, & Country",
+        "format": "Vinyl",
+        "purchase": {
+            "currency": "KRW",
+            "price": 49000,
+            "date": "2024-04-26",
+            "location": "예스24"
         }
     },
     {
