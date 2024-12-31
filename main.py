@@ -8,6 +8,11 @@ from operator import attrgetter
 import streamlit as st
 
 RECORDS_LIST_FILE = 'list.json'
+CURRENCY_RATE = {
+    'KRW': 1.0,
+    'USD': 1450.0,
+    'JPY': 9.5,
+}
 
 class App:
     def __init__(self):
@@ -19,6 +24,7 @@ class App:
             null = None
             record_list = eval(list_file.read())
             self.data: list[Record] = [Record(**record) for record in record_list]
+            self.data = self.migrate_currency(self.data)
             list_file.close()
         except FileNotFoundError:
             st.error(f'File "{RECORDS_LIST_FILE}" not found')
@@ -49,6 +55,12 @@ class App:
         self.filter = st.sidebar.expander('filter', expanded=True)
         self.options = st.sidebar.expander('options', expanded=True)
 
+    def migrate_currency(self, records: list[Record]):
+        for record in records:
+            if record.purchase is not None and record.purchase.currency != 'KRW':
+                record.purchase.price = record.purchase.price * CURRENCY_RATE[record.purchase.currency]
+                record.purchase.currency = 'KRW'
+        return records
 
     def generate_summary_string(self, group_name: Optional[str] = None):
         total_count_by_format = group_and_count([record.format for record in self.data])
