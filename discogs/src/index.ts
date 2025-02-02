@@ -38,7 +38,9 @@ function convert(release: Release) {
     notes,
   } = release;
 
-  const cover = cover_image;
+  const [main_title, secondary_title] = title.split(" = ");
+  const album_title = secondary_title ? `${main_title} (${secondary_title})` : main_title;
+
   const artist = artists[0].name.replace(/ \(\d+\)$/, "");
   const genre = genres.join(", ");
   const format = formats[0].name;
@@ -60,9 +62,9 @@ function convert(release: Release) {
   const url = resource_url.replace('api.discogs.com/releases/', 'www.discogs.com/release/');
 
   return {
-    cover,
+    cover: cover_image,
     artist: ARTIST_ALIAS[artist] || artist,
-    title,
+    title: album_title,
     year,
     genre,
     format,
