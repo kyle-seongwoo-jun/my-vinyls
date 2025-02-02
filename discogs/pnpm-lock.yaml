@@ -15,6 +15,9 @@ importers:
       '@types/node':
         specifier: ^22.10.2
         version: 22.10.2
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -31,6 +34,10 @@ packages:
   data-uri-to-buffer@4.0.1:
     resolution: {integrity: sha512-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY/NWKvdZ+9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb/A==}
     engines: {node: '>= 12'}
+
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
 
   fetch-blob@3.2.0:
     resolution: {integrity: sha512-7yAQpD2UMJzLi1Dqv7qFYnPbaPx7ZfFK6PiIxQ4PfkGPyNyl2Ugx+a/umUonmKqjhM4DnfbMvdX6otXq83soQQ==}
@@ -71,6 +78,8 @@ snapshots:
       undici-types: 6.20.0
 
   data-uri-to-buffer@4.0.1: {}
+
+  dotenv@16.4.7: {}
 
   fetch-blob@3.2.0:
     dependencies:

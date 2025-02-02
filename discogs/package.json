@@ -6,7 +6,8 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "rm -rf dist && tsc"
+    "build": "rm -rf dist && tsc",
+    "gen": "node -r dotenv/config dist/index.js > ../list.json"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "dotenv": "^16.4.7",
     "typescript": "^5.7.2"
   }
 }
