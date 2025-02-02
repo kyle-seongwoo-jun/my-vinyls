@@ -15,6 +15,7 @@ export const ARTIST_ALIAS = {
     "Mariya Takeuchi": "竹内まりや",
     "Miki Matsubara": "松原みき",
     "Radwimps": "RADWIMPS",
+    "Seiko Matsuda": "松田聖子",
     "Shiro Sagisu": "Various",
     "Tatsuro Yamashita": "山下達郎",
     "Yoasobi": "YOASOBI",
@@ -22,6 +23,7 @@ export const ARTIST_ALIAS = {
 
 export const ARTIST_COUNTRY = {
     "5 Seconds Of Summer": "US & Europe 🇺🇸🇪🇺",
+    "Aimyon": "Japan 🇯🇵",
     "Akdong Musician": "South Korea 🇰🇷",
     "Ariana Grande": "US & Europe 🇺🇸🇪🇺",
     "BLACKPINK": "South Korea 🇰🇷",
@@ -62,6 +64,7 @@ export const ARTIST_COUNTRY = {
     "Queen": "US & Europe 🇺🇸🇪🇺",
     "Radwimps": "Japan 🇯🇵",
     "Rosé": "South Korea 🇰🇷",
+    "Seiko Matsuda": "Japan 🇯🇵",
     "Shiro Sagisu": "Japan 🇯🇵",
     "Silica Gel": "South Korea 🇰🇷",
     "Silk Sonic": "US & Europe 🇺🇸🇪🇺",
