@@ -24,6 +24,7 @@ export const ARTIST_ALIAS = {
 export const ARTIST_COUNTRY = {
     "5 Seconds Of Summer": "US & Europe 🇺🇸🇪🇺",
     "Aimyon": "Japan 🇯🇵",
+    "Aiobahn": "Japan 🇯🇵",
     "Akdong Musician": "South Korea 🇰🇷",
     "Ariana Grande": "US & Europe 🇺🇸🇪🇺",
     "BLACKPINK": "South Korea 🇰🇷",
@@ -77,3 +78,17 @@ export const ARTIST_COUNTRY = {
     "조광일": "South Korea 🇰🇷",
     "한로로": "South Korea 🇰🇷",
 };
+
+export const ALBUM_COUNTRY = {
+    "Frozen The Songs": "US & Europe 🇺🇸🇪🇺",
+    "Minecraft Volume Alpha": "US & Europe 🇺🇸🇪🇺",
+    "Black Panther The Album (Music From And Inspired By)": "US & Europe 🇺🇸🇪🇺",
+    "Spider-Man: Into The Spider-Verse (Music From & Inspired By The Motion Picture)": "US & Europe 🇺🇸🇪🇺",
+    "Evangelion Finally": "Japan 🇯🇵",
+    "Interstellar (Original Motion Picture Soundtrack)": "US & Europe 🇺🇸🇪🇺",
+    "Titanic (Music From The Motion Picture)": "US & Europe 🇺🇸🇪🇺",
+    "Top Gun: Maverick - Music From The Motion Picture": "US & Europe 🇺🇸🇪🇺",
+    "알고있지만, (Original Sound Track)": "South Korea 🇰🇷",
+    "Frozen: The Songs": "US & Europe 🇺🇸🇪🇺",
+    "League Of Legends Worlds Anthems - Vol. 1: 2014-2023": "US & Europe 🇺🇸🇪🇺",
+}

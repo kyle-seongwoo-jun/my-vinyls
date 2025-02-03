@@ -1,6 +1,6 @@
 import { DiscogsClient } from "@lionralfs/discogs-client";
 import type { GetReleasesResponse } from "@lionralfs/discogs-client/types/collection";
-import { ARTIST_ALIAS, ARTIST_COUNTRY } from "./artist-constants.js";
+import { ALBUM_COUNTRY, ARTIST_ALIAS, ARTIST_COUNTRY } from "./constants.js";
 type Release = GetReleasesResponse["releases"][number];
 
 const { DISCOGS_USERNAME, DISCOGS_API_KEY } = process.env;
@@ -45,7 +45,7 @@ function convert(release: Release) {
   const genre = genres.join(", ");
   const format = formats[0].name;
 
-  const country = ARTIST_COUNTRY[artist];
+  const country = ARTIST_COUNTRY[artist] || ALBUM_COUNTRY[title];
 
   const cur_price = notes.find((x) => x.field_id === 4)!.value.split(" ");
   const currency = cur_price[0];
