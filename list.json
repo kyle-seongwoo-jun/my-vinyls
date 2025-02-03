@@ -38,6 +38,7 @@
         "year": 2014,
         "genre": "Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 36000,
@@ -101,6 +102,7 @@
         "year": 2015,
         "genre": "Electronic, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 38800,
@@ -308,6 +310,7 @@
         "year": 2018,
         "genre": "Hip Hop, Funk / Soul, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 37300,
@@ -483,6 +486,7 @@
         "year": 2019,
         "genre": "Hip Hop, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 44500,
@@ -722,6 +726,7 @@
         "year": 2021,
         "genre": "Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
             "price": 64000,
@@ -1089,6 +1094,7 @@
         "year": 2022,
         "genre": "Electronic, Classical, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 47500,
@@ -1136,6 +1142,7 @@
         "year": 2022,
         "genre": "Electronic, Pop, Stage & Screen",
         "format": "Vinyl",
+        "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "JPY",
             "price": 4950,
@@ -1215,6 +1222,7 @@
         "year": 2022,
         "genre": "Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 44000,
@@ -1230,6 +1238,7 @@
         "year": 2022,
         "genre": "Electronic, Rock, Pop, Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 47500,
@@ -1309,6 +1318,7 @@
         "year": 2022,
         "genre": "Pop, Stage & Screen",
         "format": "Vinyl",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 60000,
@@ -1436,6 +1446,7 @@
         "year": 2023,
         "genre": "Pop",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "KRW",
             "price": 51500,
@@ -1707,6 +1718,7 @@
         "year": 2024,
         "genre": "Stage & Screen",
         "format": "Vinyl",
+        "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
             "currency": "USD",
             "price": 64.13,
