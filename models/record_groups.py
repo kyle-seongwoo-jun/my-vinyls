@@ -1,7 +1,7 @@
 
 from models.record import Record
 from babel.numbers import format_currency
-from typing import Any, Iterable, Tuple
+from typing import Any, Iterable, List, Tuple
 
 class RecordGroups:
     def __init__(self, group_name: str):
@@ -9,14 +9,18 @@ class RecordGroups:
         self.group_keys: dict[str, str] = {}
         self.group_name = group_name
     
-    def generate_group_key(self, record: Record) -> Tuple[Any, str]:
+    def generate_group_key(self, record: Record) -> List[Tuple[Any, str]]:
         group = getattr(record, self.group_name, None)
         if group is None:
             group = 'N/A'
         
         # remove article from artist name
         if self.group_name == 'artist':
-            return group.replace('The ', ''), group
+            return [(group.replace('The ', ''), group)]
+        
+        # genres or styles
+        if self.group_name == 'genres' or self.group_name == 'styles':
+            return [(x, x) for x in group]
 
         # get the year from purchase_date
         if self.group_name == 'purchase_date':
@@ -42,20 +46,22 @@ class RecordGroups:
                         break
                 else:
                     group = f'{format_currency(ranges[-1], currency)} ~'
-            return price, group
+            return [(price, group)]
     
-        return group, group
+        return [(group, group)]
 
     def add(self, record: Record):
-        group_key, display_name = self.generate_group_key(record)
+        group_keys = self.generate_group_key(record)
 
         # save keys for sorting
-        self.group_keys[display_name] = group_key
+        for group_key, display_name in group_keys:
+            self.group_keys[display_name] = group_key
         
         # add record to group
-        if display_name not in self.table:
-            self.table[display_name] = []
-        self.table[display_name].append(record)
+        for group_key, display_name in group_keys:
+            if display_name not in self.table:
+                self.table[display_name] = []
+            self.table[display_name].append(record)
 
     def add_all(self, records: list[Record]):
         for record in records:

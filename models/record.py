@@ -12,6 +12,8 @@ class Record(BaseModel):
     format: str
 
     # optional
+    genres: Optional[List[str]] = None
+    styles: Optional[List[str]] = None
     country: Optional[str] = None
     purchase: Optional[PurchaseInfo] = None
     url: Optional[str] = None

@@ -17,6 +17,8 @@ CURRENCY_RATE = {
 GROUP_BY = {
     'artist': {'sort_by': ['year', 'title'], },
     'genre': {'sort_by': ['artist', 'year'], },
+    'genres': {'sort_by': ['artist', 'year'], },
+    'styles': {'sort_by': ['artist', 'year'], },
     'format': {'sort_by': ['artist', 'year'], },
     'year': {'sort_by': ['artist', 'title'], },
     'country': {'sort_by': ['artist', 'year'], },
@@ -37,6 +39,7 @@ class App:
             record_list = eval(list_file.read())
             self.data: list[Record] = [Record(**record) for record in record_list]
             self.data = self.migrate_currency(self.data)
+            self.update_group_options_by(self.data)
             list_file.close()
         except FileNotFoundError:
             st.error(f'File "{RECORDS_LIST_FILE}" not found')
@@ -66,6 +69,23 @@ class App:
 
         self.filter = st.sidebar.expander('filter', expanded=True)
         self.options = st.sidebar.expander('options', expanded=True)
+
+    def update_group_options_by(self, records: list[Record]):
+        if not self.is_groupable(records, 'genres'):
+            GROUP_BY.pop('genres')
+        else:
+            GROUP_BY.pop('genre')
+        if not self.is_groupable(records, 'styles'):
+            GROUP_BY.pop('styles')
+        if not self.is_groupable(records, 'country'):
+            GROUP_BY.pop('country')
+        if not self.is_groupable(records, 'purchase'):
+            GROUP_BY.pop('purchase_price')
+            GROUP_BY.pop('purchase_date')
+            GROUP_BY.pop('purchase_location')
+
+    def is_groupable(self, records: list[Record], group_name: str) -> bool:
+        return any(getattr(record, group_name) is not None for record in records)
 
     def migrate_currency(self, records: list[Record]):
         for record in records:
@@ -144,6 +164,7 @@ class App:
                                         value=search_param, 
                                         on_change=lambda: self.update_query_params())
 
+        group_param = "format" if group_param not in GROUP_BY else group_param
         group_name = self.options.radio('group by',
                                         key='group',
                                         options=list(GROUP_BY.keys()),
