@@ -9,7 +9,7 @@
         "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "JPY",
-            "price": 5290,
+            "price": 3290,
             "date": "2025-01-26",
             "location": "오프라인 매장"
         },
@@ -1609,7 +1609,7 @@
         "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "JPY",
-            "price": 16900,
+            "price": 18900,
             "date": "2025-01-26",
             "location": "오프라인 매장"
         },
