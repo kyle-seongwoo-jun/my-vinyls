@@ -4,7 +4,7 @@ import { Format, Note, Release } from "./discogs-client.js";
 
 export function convert(release: Release) {
   const {
-    basic_information: { cover_image, artists, title, year, genres, formats, resource_url },
+    basic_information: { cover_image, artists, title, year, genres, styles, formats, resource_url },
     notes,
   } = release;
 
@@ -12,7 +12,7 @@ export function convert(release: Release) {
   const album_title = secondary_title ? `${main_title} (${secondary_title})` : main_title;
 
   const artist = artists[0].name.replace(/ \(\d+\)$/, "");
-  const genre = genres.join(", ");
+  const genre = genres[0];
   const format = parseFormat(formats);
 
   const country = ARTIST_COUNTRY[artist] || ALBUM_COUNTRY[title];
@@ -25,6 +25,8 @@ export function convert(release: Release) {
     title: album_title,
     year,
     genre,
+    genres,
+    styles,
     format,
     country,
     purchase,
