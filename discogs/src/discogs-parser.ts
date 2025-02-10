@@ -1,6 +1,6 @@
 import { ALBUM_COUNTRY, ARTIST_ALIAS, ARTIST_COUNTRY } from "./constants.js";
 
-import { Formats, Release } from "./discogs-client.js";
+import { Format, Note, Release } from "./discogs-client.js";
 
 export function convert(release: Release) {
   const {
@@ -8,7 +8,7 @@ export function convert(release: Release) {
     notes,
   } = release;
 
-  const [main_title, secondary_title] = title.split(" = ");
+  const [main_title, secondary_title] = title.trim().split(" = ");
   const album_title = secondary_title ? `${main_title} (${secondary_title})` : main_title;
 
   const artist = artists[0].name.replace(/ \(\d+\)$/, "");
@@ -16,19 +16,7 @@ export function convert(release: Release) {
   const format = parseFormat(formats);
 
   const country = ARTIST_COUNTRY[artist] || ALBUM_COUNTRY[title];
-
-  const cur_price = notes.find((x) => x.field_id === 4)!.value.split(" ");
-  const currency = cur_price[0];
-  const price = parseFloat(cur_price[1]);
-  const date = notes.find((x) => x.field_id === 5)!.value;
-  const location = notes.find((x) => x.field_id === 6)!.value.trim();
-  const purchase = {
-    currency,
-    price,
-    date,
-    location,
-  };
-
+  const purchase = parsePurchase(notes);
   const url = resource_url.replace('api.discogs.com/releases/', 'www.discogs.com/release/');
 
   return {
@@ -44,7 +32,7 @@ export function convert(release: Release) {
   };
 }
 
-export function parseFormat(formats: Formats): string {
+export function parseFormat(formats: Format[]): string {
   // TODO: Handle Box Sets and other multiple formats
   const isBoxSet = formats.find((x) => x.name === "Box Set");
   if (isBoxSet) {
@@ -81,4 +69,19 @@ export function parseFormat(formats: Formats): string {
     return "Single";
   }
   return "N/A";
+}
+
+export function parsePurchase(notes: Note[]) {
+  const cur_price = notes.find((x) => x.field_id === 4)!.value.split(" ");
+  const currency = cur_price[0];
+  const price = parseFloat(cur_price[1]);
+  const date = notes.find((x) => x.field_id === 5)!.value;
+  const location = notes.find((x) => x.field_id === 6)!.value.trim();
+
+  return {
+    currency,
+    price,
+    date,
+    location,
+  };
 }

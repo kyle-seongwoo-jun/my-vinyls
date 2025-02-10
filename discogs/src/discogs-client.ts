@@ -2,7 +2,8 @@ import { DiscogsClient } from "@lionralfs/discogs-client";
 import type { GetReleasesResponse } from "@lionralfs/discogs-client/types/collection";
 
 export type Release = GetReleasesResponse["releases"][number];
-export type Formats = Release["basic_information"]["formats"];
+export type Format = Release["basic_information"]["formats"][number];
+export type Note = Release["notes"][number];
 
 const { DISCOGS_USERNAME, DISCOGS_API_KEY } = process.env;
 if (!DISCOGS_USERNAME || !DISCOGS_API_KEY) {
