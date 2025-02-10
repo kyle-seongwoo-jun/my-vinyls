@@ -44,7 +44,7 @@ export function convert(release: Release) {
   };
 }
 
-function parseFormat(formats: Formats): string {
+export function parseFormat(formats: Formats): string {
   // TODO: Handle Box Sets and other multiple formats
   const isBoxSet = formats.find((x) => x.name === "Box Set");
   if (isBoxSet) {
@@ -63,11 +63,12 @@ function parseFormat(formats: Formats): string {
     "Single": "Single",
     "EP": "EP",
     "Compilation": "Compilation",
+    // fallback
     "Mini-Album": "EP",
     "LP": "Album",
     '7"': "Single",
   };
-  const format = descriptions.find((y) => FORMAT_MAP[y]);
+  const format = Object.keys(FORMAT_MAP).find((x) => descriptions.includes(x));
   if (format) {
     return FORMAT_MAP[format];
   }
