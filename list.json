@@ -5,6 +5,12 @@
         "title": "Squall (スコール)",
         "year": 1980,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Kayōkyoku"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -20,7 +26,16 @@
         "artist": "Taylor Swift",
         "title": "1989",
         "year": 2014,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Dance-pop",
+            "Synth-pop",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -37,6 +52,14 @@
         "title": "Frozen The Songs",
         "year": 2014,
         "genre": "Stage & Screen",
+        "genres": [
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "Score",
+            "Theme"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -52,7 +75,15 @@
         "artist": "Imagine Dragons",
         "title": "Night Visions",
         "year": 2014,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -68,7 +99,16 @@
         "artist": "The Weeknd",
         "title": "Beauty Behind The Madness",
         "year": 2015,
-        "genre": "Hip Hop, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Soul"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -84,7 +124,18 @@
         "artist": "Mariah Carey",
         "title": "Merry Christmas",
         "year": 2015,
-        "genre": "Electronic, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Holiday",
+            "Contemporary R&B",
+            "Ballad",
+            "House"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -100,7 +151,18 @@
         "artist": "Various",
         "title": "Minecraft Volume Alpha",
         "year": 2015,
-        "genre": "Electronic, Stage & Screen",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "IDM",
+            "Chiptune",
+            "Ambient",
+            "Video Game Music"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -117,6 +179,13 @@
         "title": "Smoke + Mirrors",
         "year": 2015,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Pop Rock",
+            "Alternative Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -132,7 +201,12 @@
         "artist": "Queen",
         "title": "Studio Collection",
         "year": 2015,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [],
         "format": "Box Set",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -148,7 +222,17 @@
         "artist": "Ariana Grande",
         "title": "Dangerous Woman",
         "year": 2016,
-        "genre": "Hip Hop, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Vocal",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -164,7 +248,18 @@
         "artist": "Maroon 5",
         "title": "Overexposed",
         "year": 2016,
-        "genre": "Electronic, Rock, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "House",
+            "Pop Rock",
+            "Funk"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -180,7 +275,15 @@
         "artist": "Maroon 5",
         "title": "Songs About Jane",
         "year": 2016,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -196,7 +299,12 @@
         "artist": "Maroon 5",
         "title": "V",
         "year": 2016,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -212,7 +320,16 @@
         "artist": "The Chainsmokers",
         "title": "Collage",
         "year": 2017,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop",
+            "Dance-pop",
+            "Future Bass"
+        ],
         "format": "EP",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -228,7 +345,15 @@
         "artist": "Imagine Dragons",
         "title": "Evolve",
         "year": 2017,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Indie Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -245,6 +370,13 @@
         "title": "Harry Styles",
         "year": 2017,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Ballad",
+            "Vocal"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -260,7 +392,16 @@
         "artist": "Taylor Swift",
         "title": "Reputation",
         "year": 2017,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Dance-pop",
+            "Synth-pop",
+            "Vocal"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -276,7 +417,19 @@
         "artist": "The Weeknd",
         "title": "Starboy",
         "year": 2017,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Dance-pop",
+            "Pop Rap",
+            "Contemporary R&B",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -292,7 +445,16 @@
         "artist": "Post Malone",
         "title": "Beerbongs & Bentleys",
         "year": 2018,
-        "genre": "Hip Hop, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "Cloud Rap",
+            "Trap",
+            "Pop Rap"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -308,7 +470,17 @@
         "artist": "Various",
         "title": "Black Panther The Album (Music From And Inspired By)",
         "year": 2018,
-        "genre": "Hip Hop, Funk / Soul, Stage & Screen",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Conscious",
+            "Contemporary R&B",
+            "Soundtrack"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -324,7 +496,12 @@
         "artist": "Camila Cabello",
         "title": "Camila",
         "year": 2018,
-        "genre": "Latin, Pop",
+        "genre": "Latin",
+        "genres": [
+            "Latin",
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -341,6 +518,10 @@
         "title": "Origins",
         "year": 2018,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -357,6 +538,14 @@
         "title": "Stoney",
         "year": 2018,
         "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [
+            "Cloud Rap",
+            "Trap",
+            "Pop Rap"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -372,7 +561,16 @@
         "artist": "Ariana Grande",
         "title": "Sweetener",
         "year": 2018,
-        "genre": "Hip Hop, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Dance-pop",
+            "Vocal"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -389,6 +587,12 @@
         "title": "Youngblood",
         "year": 2018,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -404,7 +608,16 @@
         "artist": "Queen",
         "title": "Bohemian Rhapsody (The Original Soundtrack)",
         "year": 2019,
-        "genre": "Rock, Stage & Screen",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Arena Rock",
+            "Soundtrack",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -421,6 +634,10 @@
         "title": "Fine Line",
         "year": 2019,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -437,6 +654,10 @@
         "title": "Lover",
         "year": 2019,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -452,7 +673,15 @@
         "artist": "LSD",
         "title": "LSD",
         "year": 2019,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop",
+            "Dance-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -466,9 +695,20 @@
     {
         "cover": "https://i.discogs.com/w4z7kvBV234dEbv1jXMaemhTD3y7-iCz0PGbXT6-7r8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDkz/NTg4LTE1ODUxNTM1/MjMtNjQyNC5qcGVn.jpeg",
         "artist": "Ariana Grande",
-        "title": "My Everything ",
+        "title": "My Everything",
         "year": 2019,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Europop",
+            "Ballad",
+            "Contemporary R&B"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -484,7 +724,12 @@
         "artist": "Various",
         "title": "Spider-Man: Into The Spider-Verse (Music From & Inspired By The Motion Picture)",
         "year": 2019,
-        "genre": "Hip Hop, Stage & Screen",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Stage & Screen"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -500,7 +745,16 @@
         "artist": "Ariana Grande",
         "title": "Thank U, Next",
         "year": 2019,
-        "genre": "Hip Hop, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Trap",
+            "Contemporary R&B"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -516,7 +770,15 @@
         "artist": "Billie Eilish",
         "title": "When We All Fall Asleep, Where Do We Go?",
         "year": 2019,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop",
+            "Alt-Pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -533,6 +795,12 @@
         "title": "Wow.",
         "year": 2019,
         "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [
+            "Pop Rap"
+        ],
         "format": "Single",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -548,7 +816,21 @@
         "artist": "The Weeknd",
         "title": "After Hours",
         "year": 2020,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Synthwave",
+            "New Wave",
+            "Pop Rap",
+            "Disco",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -564,7 +846,16 @@
         "artist": "The Weeknd",
         "title": "Beauty Behind The Madness",
         "year": 2020,
-        "genre": "Hip Hop, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Soul"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -580,7 +871,17 @@
         "artist": "5 Seconds Of Summer",
         "title": "Calm",
         "year": 2020,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Pop Rock",
+            "Power Pop",
+            "Industrial",
+            "Indie Pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -597,6 +898,12 @@
         "title": "Dont Smile At Me",
         "year": 2020,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop"
+        ],
         "format": "EP",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -612,7 +919,19 @@
         "artist": "Post Malone",
         "title": "Hollywood's Bleeding",
         "year": 2020,
-        "genre": "Hip Hop, Rock, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Trap",
+            "Pop Rap",
+            "Cloud Rap",
+            "Contemporary R&B",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -628,7 +947,19 @@
         "artist": "Post Malone",
         "title": "Hollywood's Bleeding",
         "year": 2020,
-        "genre": "Hip Hop, Rock, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Trap",
+            "Pop Rap",
+            "Cloud Rap",
+            "Contemporary R&B",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -644,7 +975,18 @@
         "artist": "Doja Cat",
         "title": "Hot Pink",
         "year": 2020,
-        "genre": "Hip Hop, Funk / Soul",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Pop Rap",
+            "Disco",
+            "Funk",
+            "Soul"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -660,7 +1002,15 @@
         "artist": "Cyndi Lauper",
         "title": "She's So Unusual",
         "year": 2020,
-        "genre": "Electronic, Rock",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Rock"
+        ],
+        "styles": [
+            "Pop Rock",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -676,7 +1026,17 @@
         "artist": "Rosé",
         "title": "-R-",
         "year": 2021,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "K-pop",
+            "Ballad",
+            "Vocal",
+            "Electro"
+        ],
         "format": "Single",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -692,7 +1052,16 @@
         "artist": "The Weeknd",
         "title": "Blinding Lights",
         "year": 2021,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Synthwave",
+            "New Wave",
+            "Synth-pop"
+        ],
         "format": "Single",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -709,6 +1078,15 @@
         "title": "Discovery",
         "year": 2021,
         "genre": "Electronic",
+        "genres": [
+            "Electronic"
+        ],
+        "styles": [
+            "Disco",
+            "House",
+            "Electro",
+            "French House"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -725,6 +1103,14 @@
         "title": "Evangelion Finally",
         "year": 2021,
         "genre": "Stage & Screen",
+        "genres": [
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "Score",
+            "Anison"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -741,6 +1127,10 @@
         "title": "Justice",
         "year": 2021,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -757,6 +1147,12 @@
         "title": "Lalisa",
         "year": 2021,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Single",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -773,6 +1169,10 @@
         "title": "Mercury - Act 1",
         "year": 2021,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -788,7 +1188,16 @@
         "artist": "Imagine Dragons",
         "title": "Mercury - Act 1",
         "year": 2021,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Indie Pop",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -804,7 +1213,18 @@
         "artist": "Coldplay",
         "title": "Music Of The Spheres",
         "year": 2021,
-        "genre": "Electronic, Rock, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Pop Rock",
+            "Synth-pop",
+            "Synthwave"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -821,6 +1241,13 @@
         "title": "Nevermind",
         "year": 2021,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Grunge"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -836,7 +1263,15 @@
         "artist": "竹内まりや",
         "title": "Plastic Love",
         "year": 2021,
-        "genre": "Funk / Soul, Pop",
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "City Pop",
+            "Funk"
+        ],
         "format": "Single",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -852,7 +1287,16 @@
         "artist": "Ariana Grande",
         "title": "Positions",
         "year": 2021,
-        "genre": "Hip Hop, Jazz, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Jazz",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -868,7 +1312,15 @@
         "artist": "Olivia Rodrigo",
         "title": "Sour",
         "year": 2021,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Acoustic",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -884,7 +1336,17 @@
         "artist": "Olivia Rodrigo",
         "title": "Sour",
         "year": 2021,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Power Pop",
+            "Pop Punk",
+            "Acoustic",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -901,6 +1363,12 @@
         "title": "The Album",
         "year": 2021,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -916,7 +1384,22 @@
         "artist": "The Weeknd",
         "title": "The Highlights",
         "year": 2021,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Disco",
+            "New Wave",
+            "Synthwave",
+            "Pop Rap",
+            "Dance-pop",
+            "Synth-pop"
+        ],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -932,7 +1415,14 @@
         "artist": "あいみょん",
         "title": "君はロックを聴かない",
         "year": 2021,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "J-pop"
+        ],
         "format": "Single",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -948,7 +1438,16 @@
         "artist": "松原みき",
         "title": "真夜中のドア/Stay With Me",
         "year": 2021,
-        "genre": "Funk / Soul, Pop",
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "City Pop",
+            "Disco",
+            "Kayōkyoku"
+        ],
         "format": "Single",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -965,6 +1464,10 @@
         "title": "암순응 Dark Adaption",
         "year": 2021,
         "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -981,6 +1484,13 @@
         "title": "항해 / Sailing",
         "year": 2021,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop",
+            "K-pop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -997,6 +1507,16 @@
         "title": "An Evening With Silk Sonic",
         "year": 2022,
         "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Soul",
+            "Funk",
+            "Hip Hop",
+            "Disco"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1013,6 +1533,13 @@
         "title": "Charlie",
         "year": 2022,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Ballad",
+            "Vocal"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1028,7 +1555,18 @@
         "artist": "Cigarettes After Sex",
         "title": "Cigarettes After Sex",
         "year": 2022,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "Ambient",
+            "Downtempo",
+            "Shoegaze",
+            "Dream Pop",
+            "Slowcore"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1044,7 +1582,15 @@
         "artist": "Norah Jones",
         "title": "Come Away With Me",
         "year": 2022,
-        "genre": "Jazz, Pop",
+        "genre": "Jazz",
+        "genres": [
+            "Jazz",
+            "Pop"
+        ],
+        "styles": [
+            "Vocal",
+            "Contemporary Jazz"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1060,7 +1606,21 @@
         "artist": "The Weeknd",
         "title": "Dawn FM",
         "year": 2022,
-        "genre": "Electronic, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Spoken Word",
+            "Disco",
+            "Synthwave",
+            "New Wave",
+            "Dance-pop",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1076,7 +1636,15 @@
         "artist": "Harry Styles",
         "title": "Harry’s House",
         "year": 2022,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1092,7 +1660,19 @@
         "artist": "Various",
         "title": "Interstellar (Original Motion Picture Soundtrack)",
         "year": 2022,
-        "genre": "Electronic, Classical, Stage & Screen",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Classical",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Ambient",
+            "Score",
+            "Contemporary",
+            "Modern Classical",
+            "Soundtrack"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1108,7 +1688,15 @@
         "artist": "BTS",
         "title": "Love Yourself 承 'Her'",
         "year": 2022,
-        "genre": "Electronic, Hip Hop, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1125,6 +1713,13 @@
         "title": "Mercury - Act 2",
         "year": 2022,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "Alternative Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1140,7 +1735,22 @@
         "artist": "Aiobahn",
         "title": "Needy Girl Overdose Soundtrack",
         "year": 2022,
-        "genre": "Electronic, Pop, Stage & Screen",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "J-pop",
+            "Eurobeat",
+            "Chiptune",
+            "Breakbeat",
+            "Gabber",
+            "Ambient",
+            "Experimental",
+            "Video Game Music"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1157,6 +1767,12 @@
         "title": "Next Episode",
         "year": 2022,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "EP",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1172,7 +1788,15 @@
         "artist": "Imagine Dragons",
         "title": "Night Visions",
         "year": 2022,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alternative Rock",
+            "Pop Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1186,9 +1810,20 @@
     {
         "cover": "https://i.discogs.com/q0vs6JpqTvRHwN-Ww6vF4A-bh0S2DFToP6u1DBaCs_8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMzYz/Mjk3LTE2NTM4MzQ2/NjgtOTQyNi5qcGVn.jpeg",
         "artist": "Doja Cat",
-        "title": "Planet Her ",
+        "title": "Planet Her",
         "year": 2022,
-        "genre": "Hip Hop, Funk / Soul, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Pop Rap",
+            "Contemporary R&B",
+            "Dance-pop",
+            "Trap"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1204,7 +1839,16 @@
         "artist": "검정치마",
         "title": "Team Baby",
         "year": 2022,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop",
+            "Indie Rock",
+            "K-Rock"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1221,6 +1865,12 @@
         "title": "Titanic (Music From The Motion Picture)",
         "year": 2022,
         "genre": "Stage & Screen",
+        "genres": [
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1236,7 +1886,20 @@
         "artist": "Various",
         "title": "Top Gun: Maverick - Music From The Motion Picture",
         "year": 2022,
-        "genre": "Electronic, Rock, Pop, Stage & Screen",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "Synthwave",
+            "Synth-pop",
+            "Pop Rock",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1252,7 +1915,20 @@
         "artist": "Bruno Mars",
         "title": "XXIVK Magic",
         "year": 2022,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Funk",
+            "Synth-pop",
+            "Soul",
+            "New Jack Swing"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1268,7 +1944,16 @@
         "artist": "RADWIMPS",
         "title": "君の名は。",
         "year": 2022,
-        "genre": "Rock, Stage & Screen",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "J-Rock",
+            "Anison"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1284,7 +1969,17 @@
         "artist": "松原みき",
         "title": "真夜中のドア -Stay With Me-",
         "year": 2022,
-        "genre": "Funk / Soul, Pop",
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Boogie",
+            "Disco",
+            "Soul",
+            "City Pop"
+        ],
         "format": "Single",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1301,6 +1996,12 @@
         "title": "베스트 앨범 (Best Album)",
         "year": 2022,
         "genre": "Folk, World, & Country",
+        "genres": [
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Folk"
+        ],
         "format": "Compilation",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1316,7 +2017,17 @@
         "artist": "Various",
         "title": "알고있지만, (Original Sound Track)",
         "year": 2022,
-        "genre": "Pop, Stage & Screen",
+        "genre": "Pop",
+        "genres": [
+            "Pop",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "K-pop",
+            "Ballad",
+            "Score",
+            "Soundtrack"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1332,7 +2043,13 @@
         "artist": "김광석",
         "title": "1집",
         "year": 2023,
-        "genre": "Rock, Pop, Folk, World, & Country",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1348,7 +2065,15 @@
         "artist": "김광석",
         "title": "2집",
         "year": 2023,
-        "genre": "Rock, Pop, Folk, World, & Country",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Folk"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1364,7 +2089,16 @@
         "artist": "김광석",
         "title": "3번째 노래 모음",
         "year": 2023,
-        "genre": "Rock, Pop, Folk, World, & Country",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Folk",
+            "Folk Rock"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1380,7 +2114,18 @@
         "artist": "Post Malone",
         "title": "Austin",
         "year": 2023,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Alt-Pop",
+            "Indie Pop",
+            "Indie Rock",
+            "Pop Rock",
+            "Folk Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1396,7 +2141,15 @@
         "artist": "BLACKPINK",
         "title": "Born Pink",
         "year": 2023,
-        "genre": "Electronic, Hip Hop, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1413,6 +2166,12 @@
         "title": "Chet Baker Sings",
         "year": 2023,
         "genre": "Jazz",
+        "genres": [
+            "Jazz"
+        ],
+        "styles": [
+            "Cool Jazz"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1429,6 +2188,13 @@
         "title": "Error",
         "year": 2023,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1445,6 +2211,10 @@
         "title": "Frozen: The Songs",
         "year": 2023,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1461,6 +2231,12 @@
         "title": "I Met You When I Was 18.",
         "year": 2023,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "Indie Pop"
+        ],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1476,7 +2252,17 @@
         "artist": "IVE",
         "title": "I’ve Ive",
         "year": 2023,
-        "genre": "Electronic, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Pop"
+        ],
+        "styles": [
+            "K-pop",
+            "Dance-pop",
+            "Electro",
+            "Bubblegum"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1493,6 +2279,12 @@
         "title": "Me",
         "year": 2023,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Single",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1509,6 +2301,13 @@
         "title": "Neon Genesis Evangelion",
         "year": 2023,
         "genre": "Stage & Screen",
+        "genres": [
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "Anison"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1524,7 +2323,18 @@
         "artist": "Daft Punk",
         "title": "Random Access Memories (10th Anniversary Edition)",
         "year": 2023,
-        "genre": "Electronic, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Electro",
+            "Disco",
+            "Funk",
+            "Synth-pop"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1540,7 +2350,17 @@
         "artist": "山下達郎",
         "title": "Ride On Time (ライドオン・タイム)",
         "year": 2023,
-        "genre": "Funk / Soul, Pop",
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "City Pop",
+            "Disco",
+            "Funk",
+            "Soul"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1556,7 +2376,14 @@
         "artist": "Post Malone",
         "title": "Twelve Carat Toothache",
         "year": 2023,
-        "genre": "Hip Hop, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "Pop Rap"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1572,7 +2399,20 @@
         "artist": "YOASOBI",
         "title": "アイドル",
         "year": 2023,
-        "genre": "Electronic, Hip Hop, Pop, Stage & Screen",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Pop",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "J-pop",
+            "Anison",
+            "Dance-pop",
+            "Pop Rap",
+            "Theme"
+        ],
         "format": "Single",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1588,7 +2428,20 @@
         "artist": "RADWIMPS",
         "title": "すずめの戸締まり",
         "year": 2023,
-        "genre": "Rock, Pop, Classical, Stage & Screen",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Classical",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "J-Rock",
+            "Soundtrack",
+            "J-pop",
+            "Symphonic Rock",
+            "Anison"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1604,7 +2457,14 @@
         "artist": "あいみょん",
         "title": "瞳へ落ちるよレコード",
         "year": 2023,
-        "genre": "Rock, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "J-pop"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1620,7 +2480,17 @@
         "artist": "結束バンド",
         "title": "結束バンド",
         "year": 2023,
-        "genre": "Rock, Stage & Screen",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "J-Rock",
+            "Pop Rock",
+            "Anison",
+            "Soundtrack"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1636,7 +2506,12 @@
         "artist": "김광석",
         "title": "김광석 다시 부르기 I",
         "year": 2023,
-        "genre": "Pop, Folk, World, & Country",
+        "genre": "Pop",
+        "genres": [
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [],
         "format": "Compilation",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1652,7 +2527,16 @@
         "artist": "IU",
         "title": "꽃갈피",
         "year": 2023,
-        "genre": "Pop, Folk, World, & Country",
+        "genre": "Pop",
+        "genres": [
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Folk",
+            "Ballad",
+            "K-pop"
+        ],
         "format": "EP",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1668,7 +2552,16 @@
         "artist": "김광석",
         "title": "네번째",
         "year": 2023,
-        "genre": "Rock, Pop, Folk, World, & Country",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Folk",
+            "Folk Rock"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1685,6 +2578,12 @@
         "title": "Anthology",
         "year": 2024,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "Compilation",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1701,6 +2600,10 @@
         "title": "Eternal Sunshine",
         "year": 2024,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1717,6 +2620,12 @@
         "title": "League Of Legends Worlds Anthems - Vol. 1: 2014-2023",
         "year": 2024,
         "genre": "Stage & Screen",
+        "genres": [
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Theme"
+        ],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1733,6 +2642,12 @@
         "title": "Love episode",
         "year": 2024,
         "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
         "format": "EP",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1749,6 +2664,10 @@
         "title": "NOWITZKI",
         "year": 2024,
         "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1764,7 +2683,20 @@
         "artist": "The Weeknd",
         "title": "One Of The Girls + Popular",
         "year": 2024,
-        "genre": "Electronic, Hip Hop, Funk / Soul, Pop",
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Alt-Pop",
+            "Synth-pop",
+            "Dance-pop",
+            "Pop Rap"
+        ],
         "format": "Single",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1781,6 +2713,12 @@
         "title": "Power Andre 99",
         "year": 2024,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Psychedelic Rock"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1796,7 +2734,19 @@
         "artist": "Rosé",
         "title": "Rosie",
         "year": 2024,
-        "genre": "Rock, Funk / Soul, Pop",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Ballad",
+            "K-pop",
+            "Alt-Pop",
+            "Pop Rock",
+            "Contemporary R&B"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1813,6 +2763,13 @@
         "title": "Teen Troubles",
         "year": 2024,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Indie Rock",
+            "K-Rock"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1828,7 +2785,16 @@
         "artist": "Post Malone",
         "title": "The Diamond Collection",
         "year": 2024,
-        "genre": "Hip Hop, Pop",
+        "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop",
+            "Pop"
+        ],
+        "styles": [
+            "Trap",
+            "Cloud Rap",
+            "Pop Rap"
+        ],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1844,7 +2810,16 @@
         "artist": "RADWIMPS",
         "title": "天気の子",
         "year": 2024,
-        "genre": "Rock, Stage & Screen",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Stage & Screen"
+        ],
+        "styles": [
+            "Soundtrack",
+            "J-Rock",
+            "Anison"
+        ],
         "format": "Album",
         "country": "Japan 🇯🇵",
         "purchase": {
@@ -1860,7 +2835,17 @@
         "artist": "김광석",
         "title": "다시부르기 II",
         "year": 2024,
-        "genre": "Rock, Pop, Folk, World, & Country",
+        "genre": "Rock",
+        "genres": [
+            "Rock",
+            "Pop",
+            "Folk, World, & Country"
+        ],
+        "styles": [
+            "Ballad",
+            "Folk Rock",
+            "Folk"
+        ],
         "format": "Compilation",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1877,6 +2862,12 @@
         "title": "이상비행(Take-Off)",
         "year": 2024,
         "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "K-Rock"
+        ],
         "format": "Compilation",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -1893,6 +2884,10 @@
         "title": "킁",
         "year": 2024,
         "genre": "Hip Hop",
+        "genres": [
+            "Hip Hop"
+        ],
+        "styles": [],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
