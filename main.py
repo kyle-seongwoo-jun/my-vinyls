@@ -194,7 +194,7 @@ class App:
 
         # display summary
         if search:
-            summary_string = f'Found {sum([len(records) for records in record_groups.values()])} records for "{search}"'
+            summary_string = f'Found {record_groups.total_length} records for "{search}"'
         else:
             summary_string = self.generate_summary_string(self.data, include_price=group_name in ['purchase_price', 'purchase_date', 'purchase_location'])
         summary.markdown(summary_string)

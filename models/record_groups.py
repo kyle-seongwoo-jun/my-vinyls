@@ -1,17 +1,23 @@
 
 from models.record import Record
 from babel.numbers import format_currency
+from typing import Any, Iterable, Tuple
 
 class RecordGroups:
     def __init__(self, group_name: str):
         self.table: dict[str, list[Record]] = {}
+        self.group_keys: dict[str, str] = {}
         self.group_name = group_name
     
-    def generate_group_key(self, record: Record) -> str:
+    def generate_group_key(self, record: Record) -> Tuple[Any, str]:
         group = getattr(record, self.group_name, None)
         if group is None:
-            return 'N/A'
+            group = 'N/A'
         
+        # remove article from artist name
+        if self.group_name == 'artist':
+            return group.replace('The ', ''), group
+
         # get the year from purchase_date
         if self.group_name == 'purchase_date':
             group = group[:4] if len(group) >= 4 else 'N/A'
@@ -36,14 +42,20 @@ class RecordGroups:
                         break
                 else:
                     group = f'{format_currency(ranges[-1], currency)} ~'
+            return price, group
     
-        return group
+        return group, group
 
     def add(self, record: Record):
-        group = self.generate_group_key(record)
-        if group not in self.table:
-            self.table[group] = []
-        self.table[group].append(record)
+        group_key, display_name = self.generate_group_key(record)
+
+        # save keys for sorting
+        self.group_keys[display_name] = group_key
+        
+        # add record to group
+        if display_name not in self.table:
+            self.table[display_name] = []
+        self.table[display_name].append(record)
 
     def add_all(self, records: list[Record]):
         for record in records:
@@ -52,21 +64,21 @@ class RecordGroups:
     def sort_by(self, group_order: str):
         self.table = dict(sorted(
             self.table.items(), 
-            # natural sort (https://stackoverflow.com/a/31432964) for purchase_price
-            key=lambda x: '{0:0>12}'.format(x[0]).lower() if self.group_name == 'purchase_price' else x[0],
+            key=lambda x: self.group_keys[x[0]],
             reverse=group_order == 'descending',
         ))
 
-    def items(self):
+    def items(self) -> Iterable[tuple[str, list[Record]]]:
         return self.table.items()
-    
-    def values(self):
-        return self.table.values()
+  
+    @property
+    def length(self) -> int:
+        return len(self.table)
     
     @property
-    def length(self):
-        return len(self.table)
+    def total_length(self) -> int:
+        return sum([len(records) for records in self.table.values()])
 
     @property
-    def sortable(self):
+    def sortable(self) -> bool:
         return self.group_name != 'none' and self.length > 1
