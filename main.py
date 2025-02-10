@@ -3,6 +3,7 @@ from utils.streamlit_util import remove_streamlit_style
 from utils.collection_util import group_and_count, group_and_sum
 from babel.numbers import format_currency
 from models.record import Record
+from models.record_groups import RecordGroups
 from typing import Optional
 from operator import attrgetter
 import streamlit as st
@@ -12,6 +13,17 @@ CURRENCY_RATE = {
     'KRW': 1.0,
     'USD': 1450.0,
     'JPY': 9.5,
+}
+GROUP_BY = {
+    'artist': {'sort_by': ['year', 'title'], },
+    'genre': {'sort_by': ['artist', 'year'], },
+    'format': {'sort_by': ['artist', 'year'], },
+    'year': {'sort_by': ['artist', 'title'], },
+    'country': {'sort_by': ['artist', 'year'], },
+    'purchase_price': {'sort_by': ['purchase_price', 'purchase_date'], },
+    'purchase_date': {'sort_by': ['purchase_date', 'artist', 'year'], },
+    'purchase_location': {'sort_by': ['purchase_date', 'artist', 'year'], },
+    'none': {'sort_by': ['artist', 'year'], },
 }
 
 class App:
@@ -82,39 +94,31 @@ class App:
                 ] if value
             ]) + '</div>'
 
+    def create_record_groups(self, search: str, group_name: str, order_param: str) -> RecordGroups:
+        # filter and sort records from list.json by options
+        records = self.searched_and_sorted_records(search, group_name, order_param)
 
-    def genenerate_group_key(self, record: Record, group_name: str) -> str:
-        group = getattr(record, group_name, None)
-        if group is None:
-            return 'N/A'
+        record_groups = RecordGroups(group_name)
+        record_groups.add_all(records)
+        return record_groups
 
-        # get the year from purchase_date
-        if group_name == 'purchase_date':
-            group = group[:4] if len(group) >= 4 else 'N/A'
+    def searched_and_sorted_records(self, search: str, group_name: str, order_param: str) -> list[Record]:
+        sort_by = GROUP_BY[group_name].get('sort_by')
+        # TODO: sort only the first attribute in descending order and the rest in ascending order
+        need_reverse = (group_name == 'purchase_date' or group_name == 'purchase_price') and order_param == 'descending'
 
-        # get range from purchase_price
-        if group_name == 'purchase_price':
-            # 10, 20, ..., 100, 200, ..., 1000, 2000, ..., 10000, 20000, ..., 100000, 200000, ..., 1000000
-            max_digit = 6 # 1,000,000
-            ranges = [ 
-                x 
-                for digit in range(1, max_digit+1) 
-                for x in range(10**digit, 10**(digit+1), 10**digit) 
-            ] + [ 10**max_digit ]
-            
-            currency, price = group
-            if price < ranges[0]:
-                group = f'~ {format_currency(10, currency)}'
-            else:
-                for i in range(len(ranges) - 1):
-                    if price < ranges[i+1]:
-                        group = f'{format_currency(ranges[i], currency)} ~'
-                        break
-                else:
-                    group = f'{format_currency(ranges[-1], currency)} ~'
-    
-        return group
-    
+        # filter
+        records = [
+            record 
+            for record in self.data 
+            if search.lower() in str(record).lower()
+        ] if search else self.data
+
+        # sort
+        records = sorted(records, key=attrgetter(*sort_by), reverse=need_reverse)
+
+        return records
+
     def update_query_params(self):
         st.query_params = dict(
             search=st.session_state.get('search'),
@@ -129,73 +133,38 @@ class App:
         st.title('Records')
         summary = st.empty()
 
-        group_by = {
-            'artist': {'sort_by': ['year', 'title'], },
-            'genre': {'sort_by': ['artist', 'year'], },
-            'format': {'sort_by': ['artist', 'year'], },
-            'year': {'sort_by': ['artist', 'title'], },
-            'country': {'sort_by': ['artist', 'year'], },
-            'purchase_price': {'sort_by': ['purchase_price', 'purchase_date'], },
-            'purchase_date': {'sort_by': ['purchase_date', 'artist', 'year'], },
-            'purchase_location': {'sort_by': ['purchase_date', 'artist', 'year'], },
-            'none': {'sort_by': ['artist', 'year'], },
-        }
-
-
+        # get query params
         search_param = st.query_params.get('search', '')
         group_param = st.query_params.get('group', 'format')
         order_param = st.query_params.get('order', 'ascending')
 
+        # sidebar
         search = self.filter.text_input('search', 
                                         key='search', 
                                         value=search_param, 
                                         on_change=lambda: self.update_query_params())
-        
+
         group_name = self.options.radio('group by',
                                         key='group',
-                                        options=list(group_by.keys()),
-                                        index=list(group_by.keys()).index(group_param),
+                                        options=list(GROUP_BY.keys()),
+                                        index=list(GROUP_BY.keys()).index(group_param),
                                         on_change=lambda: self.update_query_params())
-        
-        group_info = group_by[group_name]
-        sort_by = group_info.get('sort_by')
-    
-        # filter and sort records from list.json by options
-        records = [
-            record 
-            for record in self.data 
-            if search.lower() in str(record).lower()
-        ] if search else self.data
-        # TODO: sort only the first attribute in descending order and the rest in ascending order
-        need_reverse = (group_name == 'purchase_date' or group_name == 'purchase_price') and order_param == 'descending'
-        records = sorted(records, key=attrgetter(*sort_by), reverse=need_reverse)
 
-        # group by options
-        table = {}
-        for record in records:
-            group = self.genenerate_group_key(record, group_name)
-            if group not in table:
-                table[group] = []
-            table[group].append(record)
+        # search, sort, and group records by options
+        record_groups = self.create_record_groups(search, group_name, order_param)
 
-        # sort keys by options
-        disable_order = group_name == 'none' or len(table) == 1
+        # sort groups by options
         group_order = self.options.radio('order', 
                                          options=['ascending', 'descending'], 
                                          index=['ascending', 'descending'].index(order_param), 
                                          key='order', 
                                          horizontal=True, 
-                                         disabled=disable_order,
+                                         disabled=not record_groups.sortable,
                                          on_change=lambda: self.update_query_params())
-        table = dict(sorted(
-            table.items(), 
-            # natural sort (https://stackoverflow.com/a/31432964) for purchase_price
-            key=lambda x: '{0:0>12}'.format(x[0]).lower() if group_name == 'purchase_price' else x[0],
-            reverse=group_order == 'descending',
-        ))
+        record_groups.sort_by(group_order)
 
         # no records found
-        if len(table) == 0:
+        if record_groups.length == 0:
             if search and len(search) > 0:
                 st.error(f'No records found for "{search}"')
             else:
@@ -203,7 +172,7 @@ class App:
 
         # display records
         count = {}
-        for group, records in table.items():
+        for group, records in record_groups.items():
             st.write('---')
             if group_name != 'none':
                 st.subheader(group)
@@ -225,7 +194,7 @@ class App:
 
         # display summary
         if search:
-            summary_string = f'Found {sum([len(records) for records in table.values()])} records for "{search}"'
+            summary_string = f'Found {sum([len(records) for records in record_groups.values()])} records for "{search}"'
         else:
             summary_string = self.generate_summary_string(self.data, include_price=group_name in ['purchase_price', 'purchase_date', 'purchase_location'])
         summary.markdown(summary_string)
