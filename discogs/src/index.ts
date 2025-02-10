@@ -43,7 +43,7 @@ function convert(release: Release) {
 
   const artist = artists[0].name.replace(/ \(\d+\)$/, "");
   const genre = genres.join(", ");
-  const format = formats[0].name;
+  const format = parseFormat(formats);
 
   const country = ARTIST_COUNTRY[artist] || ALBUM_COUNTRY[title];
 
@@ -72,6 +72,44 @@ function convert(release: Release) {
     purchase,
     url,
   };
+}
+
+function parseFormat(formats: Release["basic_information"]["formats"]): string {
+  // TODO: Handle Box Sets and other multiple formats
+  const isBoxSet = formats.find((x) => x.name === "Box Set");
+  if (isBoxSet) {
+    if (formats.length > 2) {
+      return "Box Set";
+    }
+    formats = formats.filter((x) => x.name !== "Box Set");
+  }
+
+  // use first format (if multiple)
+  const descriptions = formats[0].descriptions;
+
+  // pick format from array
+  const FORMAT_MAP = {
+    "Album": "Album",
+    "Single": "Single",
+    "EP": "EP",
+    "Compilation": "Compilation",
+    "Mini-Album": "EP",
+    "LP": "Album",
+    '7"': "Single",
+  };
+  const format = descriptions.find((y) => FORMAT_MAP[y]);
+  if (format) {
+    return FORMAT_MAP[format];
+  }
+
+  // guess format
+  if (descriptions.includes('7"')) {
+    return "Single";
+  }
+  if (descriptions.includes('12"') && descriptions.includes("45 RPM")) {
+    return "Single";
+  }
+  return "N/A";
 }
 
 const releases = await getReleases();
