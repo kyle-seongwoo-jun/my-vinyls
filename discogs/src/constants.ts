@@ -1,4 +1,5 @@
 export const ARTIST_ALIAS = {
+    "Aimyon": "あいみょん",
     "Akdong Musician": "AKMU",
     "Blackpink": "BLACKPINK",
     "C418": "Various",
