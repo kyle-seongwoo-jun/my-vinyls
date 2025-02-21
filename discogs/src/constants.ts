@@ -43,6 +43,7 @@ export const ARTIST_COUNTRY = {
     "Cyndi Lauper": "US & Europe 🇺🇸🇪🇺",
     "Daft Punk": "US & Europe 🇺🇸🇪🇺",
     "Doja Cat": "US & Europe 🇺🇸🇪🇺",
+    "Gallant": "US & Europe 🇺🇸🇪🇺",
     "Harry Styles": "US & Europe 🇺🇸🇪🇺",
     "IU": "South Korea 🇰🇷",
     "Imagine Dragons": "US & Europe 🇺🇸🇪🇺",
