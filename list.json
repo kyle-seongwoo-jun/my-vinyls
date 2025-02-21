@@ -1022,7 +1022,7 @@
         "url": "https://www.discogs.com/release/16049514"
     },
     {
-        "cover": "https://i.discogs.com/t9VEqGlkHualHFoWo-jc67rt6uRHgbAk3Ku46IxV6hY/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NDY0/OTQxLTE2MTk0Mjgw/NDgtODY2Mi5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/0vX-TPY7CFOZQ7SUxUFsctI3m3VUr2xQXTjn1JOzkr4/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4NDY0/OTQxLTE2MTk0Mjgw/NDUtNTY2Mi5qcGVn.jpeg",
         "artist": "Rosé",
         "title": "-R-",
         "year": 2021,
@@ -2212,9 +2212,12 @@
         "year": 2023,
         "genre": "Pop",
         "genres": [
-            "Pop"
+            "Pop",
+            "Stage & Screen"
         ],
-        "styles": [],
+        "styles": [
+            "Soundtrack"
+        ],
         "format": "Compilation",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -2250,7 +2253,7 @@
     {
         "cover": "https://i.discogs.com/9TaJlgZNluoEKwYmTVvyyrSm9r8uhNYSnWVqB8teqIE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTk1/MTY3LTE2OTczMjA3/NzMtNDgzMC5qcGVn.jpeg",
         "artist": "IVE",
-        "title": "I’ve Ive",
+        "title": "I've Ive",
         "year": 2023,
         "genre": "Electronic",
         "genres": [
@@ -2659,7 +2662,7 @@
         "url": "https://www.discogs.com/release/31978445"
     },
     {
-        "cover": "https://i.discogs.com/EBnZbFzrt8n7_lNk2X7avExtqBIGGFP6I_O6k62p4S0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNzE0/NzY5LTE3MjYxMjkw/MDEtNzI0Ni5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/JGsZgogjOZUtD0XFer1nMLc3utI-09jR5qbADz7LTIE/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNzE0/NzY5LTE3Mzk5NTk4/NzQtNDYzMC5qcGVn.jpeg",
         "artist": "Beenzino",
         "title": "NOWITZKI",
         "year": 2024,
@@ -2677,6 +2680,27 @@
             "location": "서울바이닐"
         },
         "url": "https://www.discogs.com/release/31714769"
+    },
+    {
+        "cover": "https://i.discogs.com/98f6roK5VqYJ5sOiDHudb6SJmmEw0W8pMVYsUCL344Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODY1/MDg0LTE3Mjc2Mjc2/MTItNzY3Ni5qcGVn.jpeg",
+        "artist": "Gallant",
+        "title": "Ology",
+        "year": 2024,
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul"
+        ],
+        "styles": [
+            "Contemporary R&B"
+        ],
+        "format": "Album",
+        "purchase": {
+            "currency": "KRW",
+            "price": 64800,
+            "date": "2024-11-15",
+            "location": "그 외"
+        },
+        "url": "https://www.discogs.com/release/31865084"
     },
     {
         "cover": "https://i.discogs.com/kDNCpOzn--A_Qvu7N-sekzw9MgvZO4QdHkQwTdr4xpc/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTk4/NjU2LTE3MTg5MjMx/MzEtNzM5My5qcGVn.jpeg",
@@ -2726,6 +2750,28 @@
             "price": 68500,
             "date": "2024-04-29",
             "location": "서울바이닐"
+        },
+        "url": "https://www.discogs.com/release/32209803"
+    },
+    {
+        "cover": "https://i.discogs.com/REmzC1dJeOIRbbMjKNAFoESLTB_1C64hs93eo18koTQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjA5/ODAzLTE3MzA4NzIy/NzMtMTkyNy5qcGVn.jpeg",
+        "artist": "Silica Gel",
+        "title": "Power Andre 99",
+        "year": 2024,
+        "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "Psychedelic Rock"
+        ],
+        "format": "Album",
+        "country": "South Korea 🇰🇷",
+        "purchase": {
+            "currency": "KRW",
+            "price": 77200,
+            "date": "2024-11-05",
+            "location": "알라딘"
         },
         "url": "https://www.discogs.com/release/32209803"
     },
@@ -2879,7 +2925,7 @@
         "url": "https://www.discogs.com/release/30317135"
     },
     {
-        "cover": "https://i.discogs.com/SGXkIOY8PQQ56WXBFQmA_-IXhOst8N5fHZrl_ExL4C0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDg2/Mjc4LTE3MTk2Mjkx/NjItMTc5MS5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/ky1T6ux7PaHPrtr07Vg5WyheisPmK41mlGjIDaBI_rE/rs:fit/g:sm/q:90/h:639/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDg2/Mjc4LTE3Mzk5NTk5/NjQtOTM5NC5qcGVn.jpeg",
         "artist": "C Jamm",
         "title": "킁",
         "year": 2024,
@@ -2897,5 +2943,32 @@
             "location": "네이버 스마트스토어"
         },
         "url": "https://www.discogs.com/release/31086278"
+    },
+    {
+        "cover": "https://i.discogs.com/13h5sAKAcGcMJIFRzW5Fdz9EC_rbfYqTcVNog_GJ93k/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDQz/NjUzLTE3Mzg4Mjk0/MDUtNDIzMS5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "Hurry Up Tomorrow",
+        "year": 2025,
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "Synth-pop",
+            "Synthwave"
+        ],
+        "format": "Album",
+        "country": "US & Europe 🇺🇸🇪🇺",
+        "purchase": {
+            "currency": "USD",
+            "price": 44.08,
+            "date": "2024-09-08",
+            "location": "해외 직구"
+        },
+        "url": "https://www.discogs.com/release/33043653"
     }
 ]
