@@ -501,7 +501,10 @@
             "Latin",
             "Pop"
         ],
-        "styles": [],
+        "styles": [
+            "Alt-Pop",
+            "Ballad"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -1467,7 +1470,9 @@
         "genres": [
             "Hip Hop"
         ],
-        "styles": [],
+        "styles": [
+            "Hardcore Hip-Hop"
+        ],
         "format": "Album",
         "country": "South Korea 🇰🇷",
         "purchase": {
@@ -2777,7 +2782,7 @@
         "url": "https://www.discogs.com/release/32209803"
     },
     {
-        "cover": "https://i.discogs.com/kfYqsPg3vwf1oePJZNkeB7KC5VfttiujPZ9eYjkyKdY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTEz/NTcxLTE3MzU1MzI5/ODItMTk2NC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/_JMHoUr1wvByDx0_Zxi4Z6P2raPWvqq4BZLYHU8rC2c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTEz/NTcxLTE3NDA3NjYz/MDYtMTQ4Ni5qcGVn.jpeg",
         "artist": "Rosé",
         "title": "Rosie",
         "year": 2024,
@@ -2944,6 +2949,27 @@
             "location": "네이버 스마트스토어"
         },
         "url": "https://www.discogs.com/release/31086278"
+    },
+    {
+        "cover": "https://i.discogs.com/_AgSBpZqwlGU9EmiqZW16OwTVvU6Gz539tyurI07__U/rs:fit/g:sm/q:90/h:616/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMjQ0/NDU1LTE3NDA0OTE5/OTEtMTYyNC5qcGVn.jpeg",
+        "artist": "aespa",
+        "title": "Armageddon",
+        "year": 2025,
+        "genre": "Pop",
+        "genres": [
+            "Pop"
+        ],
+        "styles": [
+            "K-pop"
+        ],
+        "format": "Album",
+        "purchase": {
+            "currency": "KRW",
+            "price": 53500,
+            "date": "2024-12-10",
+            "location": "예스24"
+        },
+        "url": "https://www.discogs.com/release/33244455"
     },
     {
         "cover": "https://i.discogs.com/13h5sAKAcGcMJIFRzW5Fdz9EC_rbfYqTcVNog_GJ93k/rs:fit/g:sm/q:90/h:615/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDQz/NjUzLTE3Mzg4Mjk0/MDUtNDIzMS5qcGVn.jpeg",
