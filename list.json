@@ -413,7 +413,7 @@
         "url": "https://www.discogs.com/release/11256175"
     },
     {
-        "cover": "https://i.discogs.com/jGL2LGcpv88DiLtKjPiSd22d04lQdV-WFPE73pdLqBU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3Nzgy/NzAtMTUyMzQ1NzY2/OC00MjA2LmpwZWc.jpeg",
+        "cover": "https://i.discogs.com/T2XANeCrAO4uSrnhN2iaZCf4iP9WEvDJXJ0Wf6qYJSA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk3Nzgy/NzAtMTc0MzkxNjc1/NC04MDgxLnBuZw.jpeg",
         "artist": "The Weeknd",
         "title": "Starboy",
         "year": 2017,
@@ -1114,7 +1114,7 @@
             "Score",
             "Anison"
         ],
-        "format": "Album",
+        "format": "Compilation",
         "country": "Japan 🇯🇵",
         "purchase": {
             "currency": "KRW",
@@ -1607,7 +1607,7 @@
         "url": "https://www.discogs.com/release/23054972"
     },
     {
-        "cover": "https://i.discogs.com/rtecbIwnZEnzqGNwt2pJJpPJa32azM0JrXQMnHDTd9k/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDAw/NDIwLTE2ODA5NDMx/MTQtODc4My5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/aKCcXvkKEy-516g0d0Ez0N1_SUBZEMcODKwuG_L3vQc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMDAw/NDIwLTE3NDM5MTIy/MjktMTk5OC5wbmc.jpeg",
         "artist": "The Weeknd",
         "title": "Dawn FM",
         "year": 2022,
@@ -2667,6 +2667,32 @@
         "url": "https://www.discogs.com/release/31978445"
     },
     {
+        "cover": "https://i.discogs.com/Fv6oT2I2VZvSW8xE01O0zuzQzBV27lFuIDfOh43NuVA/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTM1/MzYwLTE3MzUwNzY2/MzgtNzkzNC5qcGVn.jpeg",
+        "artist": "Coldplay",
+        "title": "Moon Music",
+        "year": 2024,
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Rock",
+            "Pop"
+        ],
+        "styles": [
+            "Synth-pop",
+            "Pop Rock",
+            "Alt-Pop"
+        ],
+        "format": "Album",
+        "country": "US & Europe 🇺🇸🇪🇺",
+        "purchase": {
+            "currency": "KRW",
+            "price": 50000,
+            "date": "2025-04-18",
+            "location": "오프라인 매장"
+        },
+        "url": "https://www.discogs.com/release/32535360"
+    },
+    {
         "cover": "https://i.discogs.com/JGsZgogjOZUtD0XFer1nMLc3utI-09jR5qbADz7LTIE/rs:fit/g:sm/q:90/h:612/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNzE0/NzY5LTE3Mzk5NTk4/NzQtNDYzMC5qcGVn.jpeg",
         "artist": "Beenzino",
         "title": "NOWITZKI",
@@ -2858,7 +2884,7 @@
         "url": "https://www.discogs.com/release/29886481"
     },
     {
-        "cover": "https://i.discogs.com/yiDJFAK8J09VirtmTRQ3yeNuRcQ4DH1skBLtlLTJWJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjMx/NDcwLTE3MTE2MzE0/NjQtNzczNi5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/0jWmU7Hzh5ohNYh4CH762ZEpcxWLlKfAF0-Y6lQo6DQ/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjMx/NDcwLTE3NDQwNzgx/NjEtNjI2Mi5qcGVn.jpeg",
         "artist": "RADWIMPS",
         "title": "天気の子",
         "year": 2024,
@@ -2963,6 +2989,7 @@
             "K-pop"
         ],
         "format": "Album",
+        "country": "South Korea 🇰🇷",
         "purchase": {
             "currency": "KRW",
             "price": 53500,
