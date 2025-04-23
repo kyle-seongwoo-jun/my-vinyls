@@ -24,6 +24,7 @@ export const ARTIST_ALIAS = {
 
 export const ARTIST_COUNTRY = {
     "5 Seconds Of Summer": "US & Europe 🇺🇸🇪🇺",
+    "aespa": "South Korea 🇰🇷",
     "Aimyon": "Japan 🇯🇵",
     "Aiobahn": "Japan 🇯🇵",
     "Akdong Musician": "South Korea 🇰🇷",
