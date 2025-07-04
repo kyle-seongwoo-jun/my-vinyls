@@ -585,13 +585,14 @@
         "url": "https://www.discogs.com/release/12712173"
     },
     {
-        "cover": "https://i.discogs.com/Ul2ZqBm8yLVIHTh3GFC3pfH2rW4k0NbLFIl7mJMltH0/rs:fit/g:sm/q:90/h:566/w:560/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTM1/NjMzLTE3MDI5NjMw/MDgtNjM3MS5wbmc.jpeg",
+        "cover": "https://i.discogs.com/hl94GNSTBnmdNGNqqNJPR9h8o7mHxblcETRVjAX_yq4/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMTQ1/Mzk2LTE1MjkyMjA4/MTYtNjk5NS5qcGVn.jpeg",
         "artist": "5 Seconds Of Summer",
         "title": "Youngblood",
         "year": 2018,
         "genre": "Rock",
         "genres": [
-            "Rock"
+            "Rock",
+            "Pop"
         ],
         "styles": [
             "Pop Rock"
@@ -604,7 +605,7 @@
             "date": "2022-10-14",
             "location": "예스24"
         },
-        "url": "https://www.discogs.com/release/12135633"
+        "url": "https://www.discogs.com/release/12145396"
     },
     {
         "cover": "https://i.discogs.com/Hp5yXt7SnlP3VX73UY8tEN3P9z2HD4CMpH6VGNIdjow/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMTgw/NjIyLTE3NTA3NTU0/MzgtNjcxNy5qcGVn.jpeg",
@@ -696,20 +697,17 @@
         "url": "https://www.discogs.com/release/13812684"
     },
     {
-        "cover": "https://i.discogs.com/w4z7kvBV234dEbv1jXMaemhTD3y7-iCz0PGbXT6-7r8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDkz/NTg4LTE1ODUxNTM1/MjMtNjQyNC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/VKUVDm2COKauRaBu09cWEYau7wkHuAKmp2WayCtK8AE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDkz/NDY5LTE3Mjg3MjEz/ODktNDM1NS5qcGVn.jpeg",
         "artist": "Ariana Grande",
         "title": "My Everything",
         "year": 2019,
-        "genre": "Electronic",
+        "genre": "Funk / Soul",
         "genres": [
-            "Electronic",
-            "Hip Hop",
             "Funk / Soul",
             "Pop"
         ],
         "styles": [
-            "Europop",
-            "Ballad",
+            "Dance-pop",
             "Contemporary R&B"
         ],
         "format": "Album",
@@ -720,7 +718,7 @@
             "date": "2022-09-22",
             "location": "김밥레코즈"
         },
-        "url": "https://www.discogs.com/release/14493588"
+        "url": "https://www.discogs.com/release/14493469"
     },
     {
         "cover": "https://i.discogs.com/muWG3iza8HbNFyETjR0vbmpOldst2UvzqVwY5CiRFUo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjgw/MTg0LTE1NjQ4MTg1/MTAtOTI5Ni5qcGVn.jpeg",
@@ -974,7 +972,7 @@
         "url": "https://www.discogs.com/release/15540505"
     },
     {
-        "cover": "https://i.discogs.com/EJ-E_D700w6dGqRvd-5aFAkrsdsh9Lmz-sYa-pZ2Nl8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTI4/MDUyLTE1OTMxMjUw/NjYtNTM3Ny5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/X0_nu27P6HTUCoE_0NXZQnEXj0H4002CZ0dPFk1Cakk/rs:fit/g:sm/q:90/h:600/w:575/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NTMy/MTc3LTE3MzM1MDg4/OTctNTkwNS5wbmc.jpeg",
         "artist": "Doja Cat",
         "title": "Hot Pink",
         "year": 2020,
@@ -998,7 +996,7 @@
             "date": "2023-04-19",
             "location": "예스24"
         },
-        "url": "https://www.discogs.com/release/14928052"
+        "url": "https://www.discogs.com/release/15532177"
     },
     {
         "cover": "https://i.discogs.com/DCXCNiiz0rTY3T8t_FuE278c7kYAw0reXTS5tu-Lk-Y/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDQ5/NTE0LTE3MzM2Mzcw/NDEtMjk0Mi5qcGVn.jpeg",
@@ -1533,7 +1531,7 @@
         "url": "https://www.discogs.com/release/24270173"
     },
     {
-        "cover": "https://i.discogs.com/uaM23GB2C_MtWafoJE-CZU7TluMyi7XRG4654KzGNnQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDE2/NDA2LTE2NzA2MTMx/NjUtOTAzMS5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/d_17Pcw5JkCPK-H_nA8TT_T-OEWdBrhGEviwLRIbQyY/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NjAx/MTc5LTE2Nzk4MjA1/NjAtODQ0OC5qcGVn.jpeg",
         "artist": "Charlie Puth",
         "title": "Charlie",
         "year": 2022,
@@ -1553,7 +1551,7 @@
             "date": "2023-04-18",
             "location": "서울바이닐"
         },
-        "url": "https://www.discogs.com/release/25416406"
+        "url": "https://www.discogs.com/release/25601179"
     },
     {
         "cover": "https://i.discogs.com/dBXPgN3ccTEUI4_mQxJXRvK_PptlDqVuWJu_QUuzwR0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MTM4/NzU4LTE2NjE2Mzk0/MTMtNDgzMS5qcGVn.jpeg",
