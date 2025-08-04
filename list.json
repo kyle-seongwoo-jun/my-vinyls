@@ -1309,7 +1309,7 @@
         "url": "https://www.discogs.com/release/18222649"
     },
     {
-        "cover": "https://i.discogs.com/9TNC6XKGH6CcMR7RDOSTRCTjCIJN7ZT7r1t9JgSi58g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODkz/NzY5LTE2NDI2Njg5/NTAtNjM3NC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/YvAHGi7Jc8pjFMR7nbqhC-c3qOcH9anRs4rBamVaKv0/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODkz/NzY5LTE3NTMxMjE2/MjgtMTcxNC5qcGVn.jpeg",
         "artist": "Olivia Rodrigo",
         "title": "Sour",
         "year": 2021,
@@ -1319,6 +1319,8 @@
             "Pop"
         ],
         "styles": [
+            "Power Pop",
+            "Pop Punk",
             "Acoustic",
             "Ballad"
         ],
