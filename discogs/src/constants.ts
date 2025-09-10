@@ -19,6 +19,7 @@ export const ARTIST_ALIAS = {
     "Seiko Matsuda": "松田聖子",
     "Shiro Sagisu": "Various",
     "Tatsuro Yamashita": "山下達郎",
+    "Utada Hikaru": "宇多田ヒカル",
     "Yoasobi": "YOASOBI",
 };
 
@@ -78,6 +79,7 @@ export const ARTIST_COUNTRY = {
     "Taylor Swift": "US & Europe 🇺🇸🇪🇺",
     "The Chainsmokers": "US & Europe 🇺🇸🇪🇺",
     "The Weeknd": "US & Europe 🇺🇸🇪🇺",
+    "Utada Hikaru": "Japan 🇯🇵",
     "Yoasobi": "Japan 🇯🇵",
     "검정치마": "South Korea 🇰🇷",
     "조광일": "South Korea 🇰🇷",
