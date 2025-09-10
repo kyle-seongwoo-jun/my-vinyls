@@ -1309,7 +1309,7 @@
         "url": "https://www.discogs.com/release/18222649"
     },
     {
-        "cover": "https://i.discogs.com/9TNC6XKGH6CcMR7RDOSTRCTjCIJN7ZT7r1t9JgSi58g/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODkz/NzY5LTE2NDI2Njg5/NTAtNjM3NC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/YvAHGi7Jc8pjFMR7nbqhC-c3qOcH9anRs4rBamVaKv0/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5ODkz/NzY5LTE3NTMxMjE2/MjgtMTcxNC5qcGVn.jpeg",
         "artist": "Olivia Rodrigo",
         "title": "Sour",
         "year": 2021,
@@ -1319,8 +1319,11 @@
             "Pop"
         ],
         "styles": [
-            "Acoustic",
-            "Ballad"
+            "Pop Punk",
+            "Indie Pop",
+            "Ballad",
+            "Emo",
+            "Acoustic"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -1633,6 +1636,31 @@
             "location": "사운드룩"
         },
         "url": "https://www.discogs.com/release/23000420"
+    },
+    {
+        "cover": "https://i.discogs.com/vAGgzdJG3PbuWOilU20ic9GA6rgCfsVC7n-U0jHFYkA/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDI5/MjEzLTE2NDcxODcx/NTAtMTAzOS5qcGVn.jpeg",
+        "artist": "宇多田ヒカル",
+        "title": "First Love",
+        "year": 2022,
+        "genre": "Funk / Soul",
+        "genres": [
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Contemporary R&B",
+            "J-pop",
+            "Ballad"
+        ],
+        "format": "Album",
+        "country": "Japan 🇯🇵",
+        "purchase": {
+            "currency": "KRW",
+            "price": 51500,
+            "date": "2025-07-02",
+            "location": "서울바이닐"
+        },
+        "url": "https://www.discogs.com/release/22429213"
     },
     {
         "cover": "https://i.discogs.com/clP9-UZBtTPxGB3QRVfRGB8H38_pfIHFhc-TQDd4NEs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg1/ODIyLTE3MzQwMTA0/MzYtMzY2MC5qcGVn.jpeg",
