@@ -4,12 +4,19 @@
         "artist": "松田聖子",
         "title": "Squall (スコール)",
         "year": 1980,
-        "genre": "Pop",
+        "genre": "Electronic",
         "genres": [
+            "Electronic",
+            "Rock",
+            "Funk / Soul",
             "Pop"
         ],
         "styles": [
-            "Kayōkyoku"
+            "Kayōkyoku",
+            "Pop Rock",
+            "Synth-pop",
+            "City Pop",
+            "Disco"
         ],
         "format": "Album",
         "country": "Japan 🇯🇵",
@@ -22,7 +29,7 @@
         "url": "https://www.discogs.com/release/3074060"
     },
     {
-        "cover": "https://i.discogs.com/pW9AsV53N7rTqrQ5O4ohakPGDc3-E0yJC0YkzveWIEg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNzk5/NjMtMTc1ODQ2MjE2/MS03NDI4LmpwZWc.jpeg",
+        "cover": "https://i.discogs.com/yhXpbscw2YpA4T9NkBHo-tyOwh0uvuiSKABGg-rych0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNzk5/NjMtMTc2MDQ1Mjcx/OS0zMDE4LmpwZWc.jpeg",
         "artist": "Taylor Swift",
         "title": "1989",
         "year": 2014,
@@ -653,7 +660,7 @@
         "url": "https://www.discogs.com/release/14521017"
     },
     {
-        "cover": "https://i.discogs.com/dJQ6jPIq0gQuJmuUa4vdoCoK6KBJfsbTz0Uq5dhLdvk/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA4/MjQ0LTE1NzM5MjIx/MjQtMjIzNC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/9h_z7LVKMpBWQDNyofKqJelpVCGirMaodD9upC3VDSA/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA4/MjQ0LTE3NjA0NjE2/NjItMzUxMC5qcGVn.jpeg",
         "artist": "Taylor Swift",
         "title": "Lover",
         "year": 2019,
