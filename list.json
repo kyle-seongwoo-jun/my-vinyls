@@ -15,7 +15,6 @@
             "Kayōkyoku",
             "Pop Rock",
             "Synth-pop",
-            "City Pop",
             "Disco"
         ],
         "format": "Album",
@@ -857,15 +856,18 @@
         "artist": "The Weeknd",
         "title": "Beauty Behind The Madness",
         "year": 2020,
-        "genre": "Hip Hop",
+        "genre": "Electronic",
         "genres": [
+            "Electronic",
             "Hip Hop",
             "Funk / Soul",
             "Pop"
         ],
         "styles": [
             "Contemporary R&B",
-            "Soul"
+            "Soul",
+            "Downtempo",
+            "Trap"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -1802,7 +1804,7 @@
         "url": "https://www.discogs.com/release/23717051"
     },
     {
-        "cover": "https://i.discogs.com/6GhhJrDk1bKmmLf43T_a6u118fW47WRyab0Pdw-CWek/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzAz/MjExLTE2MzkzMzEz/MTAtMzMyNi5wbmc.jpeg",
+        "cover": "https://i.discogs.com/CSIFOmx6TpSy1puZh-E4nlm8vYbTqOVJtl0LA6vbjno/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxMzAz/MjExLTE3NzQ5MjA2/NTctNDU2Ny5wbmc.jpeg",
         "artist": "AKMU",
         "title": "Next Episode",
         "year": 2022,
@@ -2966,6 +2968,28 @@
         "url": "https://www.discogs.com/release/30231470"
     },
     {
+        "cover": "https://i.discogs.com/pouDsU0mY1dwM5eCFHz79MwZzB7_HAalnCixRkYZVGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzE3/MTM1LTE3MTIzODg1/NTEtMTU3Ny5qcGVn.jpeg",
+        "artist": "한로로",
+        "title": "理想飛行",
+        "year": 2024,
+        "genre": "Rock",
+        "genres": [
+            "Rock"
+        ],
+        "styles": [
+            "K-Rock"
+        ],
+        "format": "Compilation",
+        "country": "South Korea 🇰🇷",
+        "purchase": {
+            "currency": "KRW",
+            "price": 46000,
+            "date": "2024-04-01",
+            "location": "예스24"
+        },
+        "url": "https://www.discogs.com/release/30317135"
+    },
+    {
         "cover": "https://i.discogs.com/gtWrohp3hPlNFgXjwakDHEdO0cY4AGC_YGTOeasQlgs/rs:fit/g:sm/q:90/h:600/w:583/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMTU1/NDA0LTE3MzA3MTgx/ODUtNzU4OC5qcGVn.jpeg",
         "artist": "김광석",
         "title": "다시부르기 II",
@@ -2990,28 +3014,6 @@
             "location": "예스24"
         },
         "url": "https://www.discogs.com/release/32155404"
-    },
-    {
-        "cover": "https://i.discogs.com/pouDsU0mY1dwM5eCFHz79MwZzB7_HAalnCixRkYZVGw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzE3/MTM1LTE3MTIzODg1/NTEtMTU3Ny5qcGVn.jpeg",
-        "artist": "한로로",
-        "title": "이상비행(Take-Off)",
-        "year": 2024,
-        "genre": "Rock",
-        "genres": [
-            "Rock"
-        ],
-        "styles": [
-            "K-Rock"
-        ],
-        "format": "Compilation",
-        "country": "South Korea 🇰🇷",
-        "purchase": {
-            "currency": "KRW",
-            "price": 46000,
-            "date": "2024-04-01",
-            "location": "예스24"
-        },
-        "url": "https://www.discogs.com/release/30317135"
     },
     {
         "cover": "https://i.discogs.com/4SNV0YnZ0djX6aD8CElMWkoS25GRsVPygB6PwfiyIok/rs:fit/g:sm/q:90/h:600/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMDg2/Mjc4LTE3Mzk5NTk5/NjQtOTM5NC5qcGVn.jpeg",
@@ -3108,6 +3110,33 @@
             "location": "예스24"
         },
         "url": "https://www.discogs.com/release/33933588"
+    },
+    {
+        "cover": "https://i.discogs.com/AuEo2P9fF-Nltr8XRap0zfYpGhvbUpy2dNRZZw3Qs2k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDY5/MzY3LTE3NjEzNjM4/MTEtNzY5NS5qcGVn.jpeg",
+        "artist": "The Weeknd",
+        "title": "My Dear Melancholy,",
+        "year": 2025,
+        "genre": "Electronic",
+        "genres": [
+            "Electronic",
+            "Hip Hop",
+            "Funk / Soul",
+            "Pop"
+        ],
+        "styles": [
+            "Pop Rap",
+            "Synth-pop",
+            "Contemporary R&B"
+        ],
+        "format": "EP",
+        "country": "US & Europe 🇺🇸🇪🇺",
+        "purchase": {
+            "currency": "USD",
+            "price": 66.64,
+            "date": "2026-05-08",
+            "location": "해외 직구"
+        },
+        "url": "https://www.discogs.com/release/35469367"
     },
     {
         "cover": "https://i.discogs.com/hOudS9piJHPZ5S9Qml4BwDck00tFYMaKM2H1CRNl4ek/rs:fit/g:sm/q:90/h:592/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMTM1/ODQ5LTE3NDEwMjcw/NzQtNjE3OS5qcGVn.jpeg",
