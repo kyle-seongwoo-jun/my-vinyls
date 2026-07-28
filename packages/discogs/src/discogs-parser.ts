@@ -1,8 +1,21 @@
 import { ALBUM_COUNTRY, ARTIST_ALIAS, ARTIST_COUNTRY } from "./constants.js";
 
 import { Format, Note, Release } from "./discogs-client.js";
+import type { PurchaseInfo, VinylRecord } from "./types.js";
 
-export function convert(release: Release) {
+/**
+ * Discogs "collection notes" are *custom fields the account owner defines*, so
+ * these ids are specific to this Discogs account. Pointing the scraper at
+ * another user would need `GET /users/{username}/collection/fields` to resolve
+ * the ids by name first — see README.
+ */
+const PURCHASE_FIELD = {
+  price: 4,
+  date: 5,
+  location: 6,
+} as const;
+
+export function convert(release: Release): VinylRecord {
   const {
     basic_information: { cover_image, artists, title, year, genres, styles, formats, resource_url },
     notes,
@@ -11,13 +24,14 @@ export function convert(release: Release) {
   const [main_title, secondary_title] = title.trim().split(" = ");
   const album_title = secondary_title ? `${main_title} (${secondary_title})` : main_title;
 
+  // strip the disambiguation suffix Discogs appends to duplicate artist names
   const artist = artists[0].name.replace(/ \(\d+\)$/, "");
   const genre = genres[0];
   const format = parseFormat(formats);
 
   const country = ARTIST_COUNTRY[artist] || ALBUM_COUNTRY[title];
   const purchase = parsePurchase(notes);
-  const url = resource_url.replace('api.discogs.com/releases/', 'www.discogs.com/release/');
+  const url = resource_url.replace("api.discogs.com/releases/", "www.discogs.com/release/");
 
   return {
     cover: cover_image,
@@ -73,17 +87,46 @@ export function parseFormat(formats: Format[]): string {
   return "N/A";
 }
 
-export function parsePurchase(notes: Note[]) {
-  const cur_price = notes.find((x) => x.field_id === 4)!.value.split(" ");
-  const currency = cur_price[0];
-  const price = parseFloat(cur_price[1]);
-  const date = notes.find((x) => x.field_id === 5)!.value;
-  const location = notes.find((x) => x.field_id === 6)!.value.trim();
+/**
+ * Reads the purchase custom fields. Every field is optional: a release with no
+ * notes at all yields `undefined`, and a partially filled one yields whatever
+ * was present. (The previous implementation asserted all three fields existed
+ * and threw on any release missing one.)
+ */
+export function parsePurchase(notes: Note[] | undefined): PurchaseInfo | undefined {
+  if (!notes?.length) return undefined;
 
-  return {
-    currency,
-    price,
-    date,
-    location,
-  };
+  const valueOf = (fieldId: number) => notes.find((x) => x.field_id === fieldId)?.value?.trim() || undefined;
+
+  const date = valueOf(PURCHASE_FIELD.date);
+  const location = valueOf(PURCHASE_FIELD.location);
+  const { currency, price } = parsePrice(valueOf(PURCHASE_FIELD.price));
+
+  const purchase: PurchaseInfo = {};
+  if (currency !== undefined) purchase.currency = currency;
+  if (price !== undefined) purchase.price = price;
+  if (date !== undefined) purchase.date = date;
+  if (location !== undefined) purchase.location = location;
+
+  return Object.keys(purchase).length > 0 ? purchase : undefined;
+}
+
+/** Parses the `"KRW 28000"` / `"USD 22.24"` shape the price field is filled in with. */
+function parsePrice(raw: string | undefined): { currency?: string; price?: number } {
+  if (!raw) return {};
+
+  const match = /^([A-Za-z]{3})\s+(-?[\d.,]+)$/.exec(raw);
+  if (match) {
+    const price = Number.parseFloat(match[2].replace(/,/g, ""));
+    if (Number.isFinite(price)) {
+      return { currency: match[1].toUpperCase(), price };
+    }
+  }
+
+  // bare amount with no currency prefix — keep the number, leave currency unknown
+  const bare = Number.parseFloat(raw.replace(/,/g, ""));
+  if (Number.isFinite(bare)) return { price: bare };
+
+  console.warn(`[parser] unrecognised price value: ${JSON.stringify(raw)}`);
+  return {};
 }

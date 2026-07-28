@@ -175,5 +175,62 @@ describe("discogs-parser", () => {
         location: "해외 직구"
       });
     });
+
+    it("should return undefined when there are no notes", () => {
+      expect(parsePurchase([])).toBeUndefined();
+      expect(parsePurchase(undefined)).toBeUndefined();
+    });
+
+    it("should keep whichever fields are present", () => {
+      // only a date — the old implementation threw on the missing price field
+      expect(parsePurchase([{
+        field_id: 5,
+        value: "2024-03-25"
+      }])).toStrictEqual({
+        date: "2024-03-25"
+      });
+
+      // price and location, no date
+      expect(parsePurchase([{
+        field_id: 4,
+        value: "KRW 28000"
+      }, {
+        field_id: 6,
+        value: "알라딘"
+      }])).toStrictEqual({
+        currency: "KRW",
+        price: 28000,
+        location: "알라딘"
+      });
+    });
+
+    it("should ignore blank field values", () => {
+      expect(parsePurchase([{
+        field_id: 4,
+        value: ""
+      }, {
+        field_id: 6,
+        value: "   "
+      }])).toBeUndefined();
+    });
+
+    it("should handle a thousands-separated price", () => {
+      expect(parsePurchase([{
+        field_id: 4,
+        value: "KRW 28,000"
+      }])).toStrictEqual({
+        currency: "KRW",
+        price: 28000
+      });
+    });
+
+    it("should keep a bare amount that has no currency prefix", () => {
+      expect(parsePurchase([{
+        field_id: 4,
+        value: "28000"
+      }])).toStrictEqual({
+        price: 28000
+      });
+    });
   });
 });
