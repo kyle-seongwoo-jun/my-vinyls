@@ -32,7 +32,7 @@ shape — the web app imports it rather than redeclaring it.
 
 ## Development
 
-Requires Node 22 and pnpm.
+Requires Node 24 and pnpm.
 
 ```bash
 pnpm install
