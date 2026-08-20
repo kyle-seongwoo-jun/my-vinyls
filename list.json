@@ -24,7 +24,7 @@
             "price": 3290,
             "date": "2025-01-26",
             "location": "오프라인 매장",
-            "priceKrw": 31255
+            "priceKrw": 30142
         },
         "url": "https://www.discogs.com/release/3074060"
     },
@@ -78,7 +78,7 @@
         "url": "https://www.discogs.com/release/6159829"
     },
     {
-        "cover": "https://i.discogs.com/oCKnZdsrdyUDoPjKs5kgGNCS7bszOLgPwds1PrpY-EQ/rs:fit/g:sm/q:90/h:492/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1Mzcx/OTEtMTM5NTkzNDY2/My00NjgyLmpwZWc.jpeg",
+        "cover": "https://i.discogs.com/aJf_mACxEtqPnIHycRML4yFYm-3-HAKwO-nJ51Kw9to/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU1Mzcx/OTEtMTc4NjMwMTcw/Ny00NzA3LmpwZWc.jpeg",
         "artist": "Imagine Dragons",
         "title": "Night Visions",
         "year": 2014,
@@ -187,11 +187,17 @@
         "year": 2015,
         "genre": "Rock",
         "genres": [
-            "Rock"
+            "Rock",
+            "Pop"
         ],
         "styles": [
             "Pop Rock",
-            "Alternative Rock"
+            "Alternative Rock",
+            "Arena Rock",
+            "Alt-Pop",
+            "Dream Pop",
+            "Folk Rock",
+            "Synth-pop"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -438,7 +444,12 @@
             "Dance-pop",
             "Pop Rap",
             "Contemporary R&B",
-            "Synth-pop"
+            "Synth-pop",
+            "Electro",
+            "Nu-Disco",
+            "Trap",
+            "Alt-Pop",
+            "Downtempo"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -530,11 +541,16 @@
         "artist": "Imagine Dragons",
         "title": "Origins",
         "year": 2018,
-        "genre": "Rock",
+        "genre": "Electronic",
         "genres": [
+            "Electronic",
             "Rock"
         ],
-        "styles": [],
+        "styles": [
+            "Electro",
+            "Pop Rock",
+            "Alternative Rock"
+        ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
         "purchase": {
@@ -868,7 +884,10 @@
             "Contemporary R&B",
             "Soul",
             "Downtempo",
-            "Trap"
+            "Trap",
+            "Electro",
+            "Hip Hop",
+            "Rhythm & Blues"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -925,7 +944,7 @@
             "price": 36.81,
             "date": "2022-08-26",
             "location": "아마존",
-            "priceKrw": 53375
+            "priceKrw": 49050
         },
         "url": "https://www.discogs.com/release/15934955"
     },
@@ -1294,7 +1313,7 @@
             "price": 7800,
             "date": "2021-10-10",
             "location": "아마존",
-            "priceKrw": 74100
+            "priceKrw": 83344
         },
         "url": "https://www.discogs.com/release/20684092"
     },
@@ -1448,7 +1467,7 @@
             "price": 16900,
             "date": "2025-01-26",
             "location": "오프라인 매장",
-            "priceKrw": 160550
+            "priceKrw": 154833
         },
         "url": "https://www.discogs.com/release/18678271"
     },
@@ -1474,7 +1493,7 @@
             "price": 3290,
             "date": "2025-01-26",
             "location": "오프라인 매장",
-            "priceKrw": 31255
+            "priceKrw": 30142
         },
         "url": "https://www.discogs.com/release/21149137"
     },
@@ -1641,7 +1660,10 @@
             "Synthwave",
             "New Wave",
             "Dance-pop",
-            "Synth-pop"
+            "Synth-pop",
+            "Nu-Disco",
+            "Electro",
+            "City Pop"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -1805,7 +1827,7 @@
             "price": 4950,
             "date": "2025-01-26",
             "location": "오프라인 매장",
-            "priceKrw": 47025
+            "priceKrw": 45350
         },
         "url": "https://www.discogs.com/release/23717051"
     },
@@ -1836,14 +1858,19 @@
         "artist": "Imagine Dragons",
         "title": "Night Visions",
         "year": 2022,
-        "genre": "Rock",
+        "genre": "Electronic",
         "genres": [
+            "Electronic",
             "Rock",
             "Pop"
         ],
         "styles": [
             "Alternative Rock",
-            "Pop Rock"
+            "Pop Rock",
+            "Arena Rock",
+            "Electro",
+            "Synth-pop",
+            "Alt-Pop"
         ],
         "format": "Album",
         "country": "US & Europe 🇺🇸🇪🇺",
@@ -2545,7 +2572,7 @@
             "price": 18900,
             "date": "2025-01-26",
             "location": "오프라인 매장",
-            "priceKrw": 179550
+            "priceKrw": 173156
         },
         "url": "https://www.discogs.com/release/25721827"
     },
@@ -2707,7 +2734,7 @@
             "price": 64.13,
             "date": "2023-10-16",
             "location": "해외 직구",
-            "priceKrw": 92989
+            "priceKrw": 86859
         },
         "url": "https://www.discogs.com/release/30237815"
     },
@@ -2802,7 +2829,7 @@
         "url": "https://www.discogs.com/release/31865084"
     },
     {
-        "cover": "https://i.discogs.com/kDNCpOzn--A_Qvu7N-sekzw9MgvZO4QdHkQwTdr4xpc/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTk4/NjU2LTE3MTg5MjMx/MzEtNzM5My5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/dLcj8vVq-rWdUnDagQw5n06U8e0dxr-JQOFAsgfN6V8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTk4/NjU2LTE3ODYwNjIw/NDMtMjIyNi5qcGVn.jpeg",
         "artist": "The Weeknd",
         "title": "One Of The Girls + Popular",
         "year": 2024,
@@ -2827,7 +2854,7 @@
             "price": 22.24,
             "date": "2024-07-03",
             "location": "해외 직구",
-            "priceKrw": 32248
+            "priceKrw": 30912
         },
         "url": "https://www.discogs.com/release/30998656"
     },
@@ -3067,7 +3094,7 @@
         "url": "https://www.discogs.com/release/33244455"
     },
     {
-        "cover": "https://i.discogs.com/lDNF12jQs0nC18239-ZF4xR9TIgnfVI2Z6d9ttuOe_A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDQz/NjUzLTE3NzEwMDc1/MzYtMTcxMC5qcGVn.jpeg",
+        "cover": "https://i.discogs.com/iNkU9Pa876acCPF9zadCUe1_oZlp2I2M4TUTgd-BHUc/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDA3/MTI1LTE3Mzk4MDIw/NTctNzg0OS5qcGVn.jpeg",
         "artist": "The Weeknd",
         "title": "Hurry Up Tomorrow",
         "year": 2025,
@@ -3090,9 +3117,9 @@
             "price": 44.08,
             "date": "2024-09-08",
             "location": "해외 직구",
-            "priceKrw": 63916
+            "priceKrw": 58650
         },
-        "url": "https://www.discogs.com/release/33043653"
+        "url": "https://www.discogs.com/release/33007125"
     },
     {
         "cover": "https://i.discogs.com/MBybiCtI-V9V0IuB4dLenAteHRUVBFU-qiRsGFhKNP4/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzOTMz/NTg4LTE3NjMyOTM5/NDktMjk2OS5qcGVn.jpeg",
@@ -3145,7 +3172,7 @@
             "price": 66.64,
             "date": "2026-05-08",
             "location": "해외 직구",
-            "priceKrw": 96628
+            "priceKrw": 97746
         },
         "url": "https://www.discogs.com/release/35469367"
     },
