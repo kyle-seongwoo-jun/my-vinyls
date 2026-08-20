@@ -7,14 +7,25 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Scrape Discogs",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/discogs/src/index.ts",
-      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "program": "${workspaceFolder}/packages/discogs/src/index.ts",
+      "cwd": "${workspaceFolder}",
+      "args": ["--out", "${workspaceFolder}/list.json"],
+      "outFiles": ["${workspaceFolder}/packages/discogs/dist/**/*.js"],
       "env": {
         "DISCOGS_USERNAME": "<discogs-username>",
         "DISCOGS_API_KEY": "<discogs-api-key>"
       }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Next.js dev",
+      "cwd": "${workspaceFolder}/apps/web",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["dev"],
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }

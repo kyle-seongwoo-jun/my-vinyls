@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "discogs/**"
+      - "packages/discogs/**"
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * 1" # Every Monday at 00:00 UTC
@@ -20,17 +20,21 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          version: 9
+          node-version-file: .nvmrc
+          cache: pnpm
 
       - name: Get dependencies & build
         run: |
-          pnpm install
-          pnpm build
-        working-directory: discogs
+          pnpm install --frozen-lockfile
+          pnpm --filter @my-vinyls/discogs build
 
       - name: Scrape Discogs
-        run: node discogs/dist/index.js > list.json
+        # also refreshes packages/discogs/fx-rates.json with any newly resolved rates
+        run: node packages/discogs/dist/index.js --out list.json
         env:
           DISCOGS_USERNAME: "kyle-seongwoo-jun"
           DISCOGS_API_KEY: ${{ secrets.DISCOGS_API_KEY }}
@@ -46,3 +50,6 @@ jobs:
           title: "feat: update list.json on ${{ steps.date.outputs.CURRENT_DATE }}"
           commit-message: "feat: update list.json on ${{ steps.date.outputs.CURRENT_DATE }}"
           branch: scrape-discogs
+          add-paths: |
+            list.json
+            packages/discogs/fx-rates.json

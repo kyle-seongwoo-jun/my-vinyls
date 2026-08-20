@@ -23,7 +23,8 @@
             "currency": "JPY",
             "price": 3290,
             "date": "2025-01-26",
-            "location": "오프라인 매장"
+            "location": "오프라인 매장",
+            "priceKrw": 31255
         },
         "url": "https://www.discogs.com/release/3074060"
     },
@@ -923,7 +924,8 @@
             "currency": "USD",
             "price": 36.81,
             "date": "2022-08-26",
-            "location": "아마존"
+            "location": "아마존",
+            "priceKrw": 53375
         },
         "url": "https://www.discogs.com/release/15934955"
     },
@@ -1291,7 +1293,8 @@
             "currency": "JPY",
             "price": 7800,
             "date": "2021-10-10",
-            "location": "아마존"
+            "location": "아마존",
+            "priceKrw": 74100
         },
         "url": "https://www.discogs.com/release/20684092"
     },
@@ -1444,7 +1447,8 @@
             "currency": "JPY",
             "price": 16900,
             "date": "2025-01-26",
-            "location": "오프라인 매장"
+            "location": "오프라인 매장",
+            "priceKrw": 160550
         },
         "url": "https://www.discogs.com/release/18678271"
     },
@@ -1469,7 +1473,8 @@
             "currency": "JPY",
             "price": 3290,
             "date": "2025-01-26",
-            "location": "오프라인 매장"
+            "location": "오프라인 매장",
+            "priceKrw": 31255
         },
         "url": "https://www.discogs.com/release/21149137"
     },
@@ -1799,7 +1804,8 @@
             "currency": "JPY",
             "price": 4950,
             "date": "2025-01-26",
-            "location": "오프라인 매장"
+            "location": "오프라인 매장",
+            "priceKrw": 47025
         },
         "url": "https://www.discogs.com/release/23717051"
     },
@@ -2538,7 +2544,8 @@
             "currency": "JPY",
             "price": 18900,
             "date": "2025-01-26",
-            "location": "오프라인 매장"
+            "location": "오프라인 매장",
+            "priceKrw": 179550
         },
         "url": "https://www.discogs.com/release/25721827"
     },
@@ -2699,7 +2706,8 @@
             "currency": "USD",
             "price": 64.13,
             "date": "2023-10-16",
-            "location": "해외 직구"
+            "location": "해외 직구",
+            "priceKrw": 92989
         },
         "url": "https://www.discogs.com/release/30237815"
     },
@@ -2818,7 +2826,8 @@
             "currency": "USD",
             "price": 22.24,
             "date": "2024-07-03",
-            "location": "해외 직구"
+            "location": "해외 직구",
+            "priceKrw": 32248
         },
         "url": "https://www.discogs.com/release/30998656"
     },
@@ -3080,7 +3089,8 @@
             "currency": "USD",
             "price": 44.08,
             "date": "2024-09-08",
-            "location": "해외 직구"
+            "location": "해외 직구",
+            "priceKrw": 63916
         },
         "url": "https://www.discogs.com/release/33043653"
     },
@@ -3134,7 +3144,8 @@
             "currency": "USD",
             "price": 66.64,
             "date": "2026-05-08",
-            "location": "해외 직구"
+            "location": "해외 직구",
+            "priceKrw": 96628
         },
         "url": "https://www.discogs.com/release/35469367"
     },
