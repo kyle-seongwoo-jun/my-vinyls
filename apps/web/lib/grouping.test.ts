@@ -210,6 +210,60 @@ describe("summarize", () => {
   });
 });
 
+describe("missing-value groups", () => {
+  it("stays last in descending order, not swept to the front by the reversal", () => {
+    const records = [
+      record({ purchase: { date: "2024-03-25", currency: "KRW", price: 1 } }),
+      record({ purchase: { date: "2025-01-26", currency: "KRW", price: 1 } }),
+      record({ purchase: { currency: "KRW", price: 1 } }), // no date
+    ];
+
+    const asc = groupRecords(records, "purchase_date", "ascending");
+    expect(asc.groups.map((g) => g.name)).toEqual(["2024", "2025", "N/A"]);
+
+    const desc = groupRecords(records, "purchase_date", "descending");
+    expect(desc.groups.map((g) => g.name)).toEqual(["2025", "2024", "N/A"]);
+  });
+
+  it("keeps the unpriced bucket last in both directions", () => {
+    const records = [
+      record({ purchase: { currency: "KRW", price: 20000 } }),
+      record({ purchase: { currency: "KRW", price: 90000 } }),
+      record({ purchase: { location: "알라딘" } }), // no price
+    ];
+    expect(groupRecords(records, "purchase_price", "descending").groups.at(-1)?.name).toBe("N/A");
+    expect(groupRecords(records, "purchase_price", "ascending").groups.at(-1)?.name).toBe("N/A");
+  });
+
+  it("does not mark the single `none` bucket as unavailable", () => {
+    const { groups } = groupRecords([record()], "none", "ascending");
+    expect(groups[0].unavailable).toBe(false);
+  });
+});
+
+describe("per-field purchase group availability", () => {
+  it("offers only the groupings the partial notes can support", () => {
+    // a date-only note: price and location groupings would be all-N/A
+    const groups = availableGroups([record({ purchase: { date: "2024-03-25" } })]);
+    expect(groups).toContain("purchase_date");
+    expect(groups).not.toContain("purchase_price");
+    expect(groups).not.toContain("purchase_location");
+  });
+
+  it("offers all three when every field is filled in", () => {
+    const groups = availableGroups([
+      record({ purchase: { currency: "KRW", price: 28000, date: "2024-03-25", location: "알라딘" } }),
+    ]);
+    expect(groups).toEqual(expect.arrayContaining(["purchase_price", "purchase_date", "purchase_location"]));
+  });
+
+  it("treats a zero price as unknown, the way the Streamlit app did", () => {
+    // Discogs' price field defaults to 0 when never filled in
+    expect(purchasePriceKrw(record({ purchase: { currency: "KRW", price: 0 } }))).toBeUndefined();
+    expect(availableGroups([record({ purchase: { currency: "KRW", price: 0 } })])).not.toContain("purchase_price");
+  });
+});
+
 describe("buildCollection", () => {
   it("searches, sorts and groups together", () => {
     const records = [

@@ -66,6 +66,12 @@ export interface Group {
   name: string;
   /** Value the groups are ordered by. */
   sortKey: string | number;
+  /**
+   * True for the bucket holding records with no value for the grouped field.
+   * It is pinned last in both directions rather than being swept to the front
+   * by the descending reversal.
+   */
+  unavailable: boolean;
   records: VinylRecord[];
 }
 
@@ -88,9 +94,14 @@ export interface GroupedCollection {
 export function purchasePriceKrw(record: VinylRecord): number | undefined {
   const { purchase } = record;
   if (!purchase) return undefined;
-  if (purchase.priceKrw) return purchase.priceKrw;
+
+  // Discogs' price field defaults to 0 when it was never filled in, so a zero
+  // price means "unknown", not "free". The Streamlit app read it the same way.
+  if (!purchase.price) return undefined;
+
+  if (purchase.priceKrw !== undefined) return purchase.priceKrw;
   // records priced in KRW don't need a conversion
-  if (purchase.currency === "KRW" && purchase.price) return purchase.price;
+  if (purchase.currency === "KRW") return purchase.price;
   return undefined;
 }
 
@@ -117,7 +128,11 @@ export function availableGroups(records: readonly VinylRecord[]): GroupKey[] {
   const hasGenres = has((record) => record.genres?.length);
   const hasStyles = has((record) => record.styles?.length);
   const hasCountry = has((record) => record.country);
-  const hasPurchase = has((record) => record.purchase);
+  // notes can be filled in partially, so each purchase grouping is gated on its
+  // own field rather than on the presence of a purchase block
+  const hasPurchasePrice = has((record) => purchasePriceKrw(record) !== undefined);
+  const hasPurchaseDate = has((record) => purchaseDate(record));
+  const hasPurchaseLocation = has((record) => purchaseLocation(record));
 
   return GROUP_KEYS.filter((key) => {
     switch (key) {
@@ -131,9 +146,11 @@ export function availableGroups(records: readonly VinylRecord[]): GroupKey[] {
       case "country":
         return hasCountry;
       case "purchase_price":
+        return hasPurchasePrice;
       case "purchase_date":
+        return hasPurchaseDate;
       case "purchase_location":
-        return hasPurchase;
+        return hasPurchaseLocation;
       default:
         return true;
     }
@@ -263,17 +280,24 @@ export function priceBucket(price: number): { lowerBound: number; label: string 
 
 const NOT_AVAILABLE = "N/A";
 
+type GroupRef = { name: string; sortKey: string | number; unavailable?: boolean };
+
+/** The bucket for records with no value for the grouped field. */
+const missing = (): GroupRef => ({ name: NOT_AVAILABLE, sortKey: NOT_AVAILABLE, unavailable: true });
+
 /**
  * The group(s) a record belongs to. `genres` and `styles` return several — a
  * record with 4 genres appears under all 4 headings.
  */
-function groupsFor(record: VinylRecord, group: GroupKey): Array<{ name: string; sortKey: string | number }> {
+function groupsFor(record: VinylRecord, group: GroupKey): GroupRef[] {
   switch (group) {
     case "none":
+      // not a missing value — this is the single bucket holding everything
       return [{ name: NOT_AVAILABLE, sortKey: NOT_AVAILABLE }];
 
     case "artist": {
-      const artist = record.artist || NOT_AVAILABLE;
+      if (!record.artist) return [missing()];
+      const artist = record.artist;
       // order by the name without its leading article, but still display it
       return [{ name: artist, sortKey: artist.replace(/^The /, "") }];
     }
@@ -281,37 +305,40 @@ function groupsFor(record: VinylRecord, group: GroupKey): Array<{ name: string; 
     case "genres":
     case "styles": {
       const values = record[group];
-      if (!values?.length) return [{ name: NOT_AVAILABLE, sortKey: NOT_AVAILABLE }];
+      if (!values?.length) return [missing()];
       return values.map((value) => ({ name: value, sortKey: value }));
     }
 
     case "year": {
       const year = record.year;
-      return year ? [{ name: String(year), sortKey: year }] : [{ name: NOT_AVAILABLE, sortKey: NOT_AVAILABLE }];
+      return year ? [{ name: String(year), sortKey: year }] : [missing()];
     }
 
     case "purchase_date": {
       const date = purchaseDate(record);
-      const year = date && date.length >= 4 ? date.slice(0, 4) : NOT_AVAILABLE;
+      if (!date || date.length < 4) return [missing()];
+      const year = date.slice(0, 4);
       return [{ name: year, sortKey: year }];
     }
 
     case "purchase_price": {
       const price = purchasePriceKrw(record);
-      if (price === undefined) return [{ name: NOT_AVAILABLE, sortKey: Number.NEGATIVE_INFINITY }];
+      if (price === undefined) return [missing()];
       const { lowerBound, label } = priceBucket(price);
       return [{ name: label, sortKey: lowerBound }];
     }
 
     case "purchase_location": {
-      const location = purchaseLocation(record) ?? NOT_AVAILABLE;
+      const location = purchaseLocation(record);
+      if (!location) return [missing()];
       return [{ name: location, sortKey: location }];
     }
 
     case "genre":
     case "format":
     case "country": {
-      const value = record[group] || NOT_AVAILABLE;
+      const value = record[group];
+      if (!value) return [missing()];
       return [{ name: value, sortKey: value }];
     }
   }
@@ -326,18 +353,21 @@ export function groupRecords(records: readonly VinylRecord[], group: GroupKey, o
   const table = new Map<string, Group>();
 
   for (const record of records) {
-    for (const { name, sortKey } of groupsFor(record, group)) {
+    for (const { name, sortKey, unavailable } of groupsFor(record, group)) {
       const existing = table.get(name);
       if (existing) {
         existing.records.push(record);
       } else {
-        table.set(name, { name, sortKey, records: [record] });
+        table.set(name, { name, sortKey, unavailable: unavailable ?? false, records: [record] });
       }
     }
   }
 
-  const groups = [...table.values()].sort(compareGroups);
-  if (order === "descending") groups.reverse();
+  const all = [...table.values()];
+  const known = all.filter((entry) => !entry.unavailable).sort(compareGroups);
+  const unavailable = all.filter((entry) => entry.unavailable);
+  if (order === "descending") known.reverse();
+  const groups = [...known, ...unavailable];
 
   return {
     groups,

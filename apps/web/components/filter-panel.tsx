@@ -12,6 +12,13 @@ import { GROUP_LABELS, type GroupKey, type SortOrder } from "@/lib/grouping";
 const ORDERS: SortOrder[] = ["ascending", "descending"];
 
 interface FilterPanelProps {
+  /**
+   * Namespaces this instance's control ids. The desktop panel stays mounted
+   * (CSS-hidden) while the mobile sheet is open, so without a prefix both
+   * instances would share ids and a sheet label would resolve to the hidden
+   * desktop control that comes first in the document.
+   */
+  idPrefix: string;
   search: string;
   onSearchChange: (value: string) => void;
   group: GroupKey;
@@ -25,6 +32,7 @@ interface FilterPanelProps {
 }
 
 export function FilterPanel({
+  idPrefix,
   search,
   onSearchChange,
   group,
@@ -39,13 +47,13 @@ export function FilterPanel({
   return (
     <div className="flex flex-col gap-6">
       <section className="flex flex-col gap-2">
-        <Label htmlFor="search" className="text-muted-foreground text-xs tracking-wide uppercase">
+        <Label htmlFor={`${idPrefix}-search`} className="text-muted-foreground text-xs tracking-wide uppercase">
           filter
         </Label>
         <div className="relative">
           <Search className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2" aria-hidden />
           <Input
-            id="search"
+            id={`${idPrefix}-search`}
             type="search"
             value={search}
             placeholder="search"
@@ -62,8 +70,8 @@ export function FilterPanel({
         <RadioGroup value={group} onValueChange={(value) => onGroupChange(value as GroupKey)} className="gap-2.5">
           {groups.map((key) => (
             <div key={key} className="flex items-center gap-2.5">
-              <RadioGroupItem value={key} id={`group-${key}`} />
-              <Label htmlFor={`group-${key}`} className="cursor-pointer text-sm font-normal">
+              <RadioGroupItem value={key} id={`${idPrefix}-group-${key}`} />
+              <Label htmlFor={`${idPrefix}-group-${key}`} className="cursor-pointer text-sm font-normal">
                 {GROUP_LABELS[key]}
               </Label>
             </div>

@@ -65,8 +65,9 @@ export function CollectionContent({ records, state, onChange, onClear }: Collect
   const isDefaultState = search === "" && group === DEFAULT_GROUP && order === DEFAULT_ORDER;
   const interactive = Boolean(onChange);
 
-  const filters = (
+  const renderFilters = (idPrefix: string) => (
     <FilterPanel
+      idPrefix={idPrefix}
       search={search}
       onSearchChange={(value) => onChange?.({ search: value })}
       group={group}
@@ -83,7 +84,7 @@ export function CollectionContent({ records, state, onChange, onClear }: Collect
   return (
     <div className="mx-auto flex w-full max-w-[1600px] flex-col gap-6 px-4 py-6 lg:flex-row lg:gap-10 lg:px-8 lg:py-10">
       <aside className="hidden w-56 shrink-0 lg:block">
-        <div className="sticky top-10">{filters}</div>
+        <div className="sticky top-10">{renderFilters("desktop")}</div>
       </aside>
 
       <main className="min-w-0 flex-1">
@@ -102,7 +103,7 @@ export function CollectionContent({ records, state, onChange, onClear }: Collect
                 <SheetHeader>
                   <SheetTitle>Filter &amp; options</SheetTitle>
                 </SheetHeader>
-                <div className="px-4 pb-8">{filters}</div>
+                <div className="px-4 pb-8">{renderFilters("mobile")}</div>
               </SheetContent>
             </Sheet>
           </div>
